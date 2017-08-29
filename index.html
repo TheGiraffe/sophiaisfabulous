@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/contents.js"></script>
+  <title>Sophia's Portfolio</title>
+</head>
+<body>
+  <center>
+    <h1>SOPHIA IS FABULOUS</h1><br>
+  <i>...And She's Watching You, Too!</i></center>
+  <center><div class="navbar">
+    <a href="index.html"><button class="navbarbuttons" id="welcomearthling" style="vertical-align:middle"><span>WELCOME, EARTHLING!</span></button></a>
+  <a href="about.html"><button class="navbarbuttons" id="about" style="vertical-align:middle"><span>ABOUT</span></button></a>
+  <a href="contact.html"><button class="navbarbuttons" id="contact" style="vertical-align:middle"><span>CONTACT</span></button></a>
+  <a href="http://seniorprojects.sophiaisfabulous.com/index.html"><button class="navbarbuttons" id="seniorprojects" style="vertical-align:middle"><span>SENIOR PROJECTS</span></button></a>
+
+  </div>
+
+  <center>
+    <div class="imglinkgrid">
+      <div class="contentgrid"></div>
+      <ul id="myList">
+    <li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="1"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="2"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="3"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="4"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="5"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="6"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="7"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="8"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="9"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="10"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="11"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="12"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="13"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="14"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="15"></div></div>
+    </li><li><div class="landingimagegrid" ontouchstart="this.classList.toggle('hover');"><div class="flipper" id="16"></div></div>
+    </li>
+</ul>
+    </div>
+  &#169 Sophia Davis 2017</center>
+
+    <script>
+    $(document).ready(function(){
+      $('#myList li').not(':lt(8)').hide();
+      var items =  16;
+      var shown =  8;
+
+      $(window).on("scroll", function() {
+	var scrollHeight = $(document).height();
+	var scrollPosition = $(window).height() + $(window).scrollTop();
+	if ((scrollHeight - scrollPosition) / scrollHeight === 0) {
+    shown = $('#myList li:visible').size()+4;
+    if(shown< items) {$('#myList li:lt('+shown+')').show();}
+    else {$('#myList li:lt('+items+')').show();
+         }
+	}
+});
+
+      $('.contentgrid').hide();
+
+            document.getElementById("1").style.backgroundImage = "url('images/img0.png')";
+            document.getElementById("2").style.backgroundImage = "url('images/img1.png')";
+            document.getElementById("3").style.backgroundImage = "url('images/img2.png')";
+            document.getElementById("4").style.backgroundImage = "url('images/img3.png')";
+            document.getElementById("5").style.backgroundImage = "url('images/img4.png')";
+            document.getElementById("6").style.backgroundImage = "url('images/img5.png')";
+            document.getElementById("7").style.backgroundImage = "url('images/img6.png')";
+            document.getElementById("8").style.backgroundImage = "url('images/img7.png')";
+
+            document.getElementById("9").style.backgroundImage = "url('images/img8.jpg')";
+            document.getElementById("10").style.backgroundImage = "url('images/img9.jpg')";
+            document.getElementById("11").style.backgroundImage = "url('images/img10.jpg')";
+            document.getElementById("12").style.backgroundImage = "url('images/img11.jpg')";
+            document.getElementById("13").style.backgroundImage = "url('images/img12.jpg')";
+            document.getElementById("14").style.backgroundImage = "url('images/img13.jpg')";
+            document.getElementById("15").style.backgroundImage = "url('images/img14.jpg')";
+            document.getElementById("16").style.backgroundImage = "url('images/img15.jpg')";
+            $('#1').html('<div class= "contentlandinggrid">'+content1short+'</div>');
+            $('#2').html('<div class= "contentlandinggrid">'+content2short+'</div>');
+            $('#3').html('<div class= "contentlandinggrid">'+content3short+'</div>');
+            $('#4').html('<div class= "contentlandinggrid">'+content4short+'</div>');
+            $('#5').html('<div class= "contentlandinggrid">'+content5short+'</div>');
+            $('#6').html('<div class= "contentlandinggrid">'+content6short+'</div>');
+            $('#7').html('<div class= "contentlandinggrid">'+content7short+'</div>');
+            $('#8').html('<div class= "contentlandinggrid">'+content8short+'</div>');
+            $('#9').html('<div class= "contentlandinggrid">'+content9short+'</div>');
+            $('#10').html('<div class= "contentlandinggrid">'+content10short+'</div>');
+            $('#11').html('<div class= "contentlandinggrid">'+content11short+'</div>');
+            $('#12').html('<div class= "contentlandinggrid">'+content12short+'</div>');
+            $('#13').html('<div class= "contentlandinggrid">'+content13short+'</div>');
+            $('#14').html('<div class= "contentlandinggrid">'+content14short+'</div>');
+            $('#15').html('<div class= "contentlandinggrid">'+content15short+'</div>');
+            $('#16').html('<div class= "contentlandinggrid">'+content16short+'</div>');
+
+            $('#1').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content1+'<br>Double Click This Box To Close').show();});
+            $('#2').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content2+'<br>Double Click This Box To Close').show();});
+            $('#3').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content3+'<br>Double Click This Box To Close').show();});
+            $('#4').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content4+'<br>Double Click This Box To Close').show();});
+            $('#5').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content5+'<br>Double Click This Box To Close').show();});
+            $('#6').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content6+'<br>Double Click This Box To Close').show();});
+            $('#7').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content7+'<br>Double Click This Box To Close').show();});
+            $('#8').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content8+'<br>Double Click This Box To Close').show();});
+            $('#9').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content9+'<br>Double Click This Box To Close').show();});
+            $('#10').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content10+'<br>Double Click This Box To Close').show();});
+            $('#11').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content11+'<br>Double Click This Box To Close').show();});
+            $('#12').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content12+'<br>Double Click This Box To Close').show();});
+            $('#13').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content13+'<br>Double Click This Box To Close').show();});
+            $('#14').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content14+'<br>Double Click This Box To Close').show();});
+            $('#15').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content15+'<br>Double Click This Box To Close').show();});
+            $('#16').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content16+'<br>Double Click This Box To Close').show();});
+      $('.contentgrid').on('dblclick', function(){
+        $('.contentgrid').hide();
+
+      });
+  });
+    </script>
+</center>
+</body>
+</html>

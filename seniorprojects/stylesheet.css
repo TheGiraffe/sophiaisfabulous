@@ -1,0 +1,159 @@
+@import url(fonts/CaviarDreams/stylesheet.css);
+@import url(fonts/uppereastside/stylesheet.css);
+@import url(icons/foundation-icons.css);
+body{
+background-image: url("background.png");
+background-position: top left;
+background-size:cover;
+background-color: black;
+background-attachment: scroll;
+background-repeat: no-repeat;
+color: #00e6ac;
+font-family: 'caviar_dreamsregular';
+padding-left:20px;
+padding-right:20px;
+font-size: 18px;
+}
+h1{
+  font-family:'uppereastsideregular';
+  font-size: 50px;
+  display:inline-block;
+}
+h2{
+  font-family:'uppereastsideregular';
+  font-size: 100px;
+  color: white;
+  display:inline-block;
+  margin-bottom: 0;
+}
+h2:hover{
+  color: #00e6ac;
+}
+h3{
+margin-top: 0;
+  font-family:'uppereastsideregular';
+  font-size: 50px;
+  color: white;
+  display:inline-block;
+}
+h4{
+  font-family:'uppereastsideregular';
+  font-size: 50px;
+  display:inline-block;
+  color: white;
+  margin-bottom:0;
+  margin-top: 10px;
+}
+h5{
+  font-family:'uppereastsideregular';
+  font-size: 50px;
+  display:inline-block;
+  color: white;
+  margin-bottom:0;
+  margin-top: 10px;
+}
+
+.homepagelink:link{
+  text-decoration: none;
+}
+.navbar{
+  margin-bottom: -80px;
+  display: block;
+}
+.navbar2{
+  margin-bottom: 0;
+  display: block;
+}
+.navbarbuttons {
+  background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'caviar_dreamsregular';
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.navbarbuttons span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.icon{
+  font-family: "foundation-icons";
+}
+.navbarbuttons span:after {
+  content:'\f214';
+  color: #00e6ac;
+  font-size: 20px;
+  font-family: "foundation-icons";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.navbarbuttons:hover span {
+  padding-right: 25px;
+}
+
+.navbarbuttons:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.about{
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-color: rgba(0, 230, 172, 0.4);
+  border-width: 10px;
+  border-style: solid;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin-left: 25%;
+}
+.aboutcontent{
+  margin: 20px;
+  display: inline-block;
+}
+.blogcontent{
+  margin: 30px;
+  display: inline-block;
+}
+.blogdate{
+  margin-top: 10px;
+  border-style: dotted;
+  border-color: inherit;
+  width: 50%;
+}
+.blogpost{
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-color: rgba(0, 230, 172, 0.4);
+  border-width: 10px;
+  border-style: solid;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin-left: 25%;
+}
+
+.projectstype{
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*
+#welcomearthling{  background-color:  #f44336;}
+#about{background-color:  #e65c00;}
+#myprojects{background-color: #009900;}
+#essays{background-color: #00b8e6;}
+#comics{background-color: #7a00cc;}
+#blog{	background-color: #990099;}
+*/
