@@ -1,0 +1,105 @@
+﻿.buttonred{
+	background-color: #003300;
+ border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;}
+.buttonred:hover{
+background-color: red;
+}
+
+.buttonorange{
+	background-color: #003300;
+ border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;}
+.buttonorange:hover{
+background-color: orange;
+}
+
+.buttonyellow{
+	background-color: #003300;
+ border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;}
+.buttonyellow:hover{
+background-color: yellow;
+	color: black;
+}
+
+.buttongreen{
+	background-color: #003300;
+ border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;}
+.buttongreen:hover{
+background-color: green;
+}
+
+.buttonblue{
+	background-color: #003300;
+ border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;}
+.buttonblue:hover{
+background-color: blue;
+}
+
+.buttonpurple{
+	background-color: #003300;
+ border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;}
+.buttonpurple:hover{
+background-color: purple;
+}
+
+.buttonmagenta{
+	background-color: #003300;
+ border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;}
+.buttonmagenta:hover{
+background-color: magenta;
+}
