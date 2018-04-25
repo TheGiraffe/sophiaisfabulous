@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta http-equiv="Cache-Control" content="no-store" />
     <meta charset="UTF-8">
 <link rel="stylesheet" href="../seniorstylesheet.css">
 <script src="../js/jquery.min.js"></script>
@@ -20,20 +21,20 @@
       <div class="dropdown">
       <a href="../seniorproject.html"><button class="seniornavbarbuttons" id="seniorproject" style="vertical-align:middle"><span>SENIOR PROJECT</span></button></a>
       <div class="dropdown-content">
-        <a href="../seniorproject/journal.html">JOURNAL</a>
+        <a href="https://thegiraffe.github.io/seniorprojectjournal/">JOURNAL</a>
       </div>
     </div>
     <div class="dropdown">
       <a href="../worksamples.html"><button class="seniornavbarbuttons" id="seniorprojects" style="vertical-align:middle"><span>WORK SAMPLES</span></button></a>
 <div class="dropdown-content">
-  <a href="#worksample1">PROJECT A</a>
-  <a href="#worksample2">PROJECT B</a>
-  <a href="#worksample3">PROJECT C</a>
-  <a href="#worksample4">PROJECT D</a>
+  <a href="../worksamples/worksample1.html">ROBOT PROJECT</a>
+  <a href="../worksamples/worksample2.html">MAKERS CLUB</a>
+<a href="../worksamples/worksample3.html">SUSTAINABILITY ESSAY</a>
+  <a href="../worksamples/worksample4.html">BIOLOGY CELL PROJECT</a>
 </div>
 </div>
       <a href="../extracurriculars.html"><button class="seniornavbarbuttons" id="seniorprojects" style="vertical-align:middle"><span>EXTRACURRICULARS</span></button></a>
-  <a href="http://sophiasinternshipblog.weebly.com/"><button class="seniornavbarbuttons" id="seniorprojectsblog" style="vertical-align:middle"><span>INTERNSHIP BLOG</span></button></a>
+  <a href="../internship2017.html"><button class="seniornavbarbuttons" id="seniorprojectsblog" style="vertical-align:middle"><span>INTERNSHIP BLOG</span></button></a>
 
   </div></center>
 
@@ -44,70 +45,6 @@ This is my financial plan.
     <br>
     <div class="footer">&#169 Sophia Davis 2017</div>
 </center>
-<div class="hidden">
-	<script type="text/javascript">
-		<!--//--><![CDATA[//><!--
 
-			if (document.images) {
-				img1 = new Image();
-				img2 = new Image();
-				img3 = new Image();
-        img4 = new Image();
-				img5 = new Image();
-				img6 = new Image();
-        img7 = new Image();
-				img8 = new Image();
-				img9 = new Image();
-        img10 = new Image();
-
-				img1.src = "../images/1.jpg";
-				img2.src = "../images/2.jpg";
-				img3.src = "../images/3.jpg";
-        img4.src = "../images/4.jpg";
-				img5.src = "../images/5.jpg";
-				img6.src = "../images/6.jpg";
-        img7.src = "../images/7.jpg";
-				img8.src = "../images/8.jpg";
-				img9.src = "../images/9.jpg";
-        img10.src = "../images/10.jpg";
-			}
-
-		//--><!]]>
-	</script>
-</div>
-<script>
-$(function () {
-    var body = $('body');
-    var backgrounds = [
-      'url(../images/1.jpg)',
-      'url(../images/2.jpg)',
-      'url(../images/3.jpg)',
-      'url(../images/4.jpg)',
-      'url(../images/5.jpg)',
-      'url(../images/6.jpg)',
-      'url(../images/7.jpg)',
-      'url(../images/8.jpg)',
-      'url(../images/9.jpg)',
-      'url(../images/10.jpg)',
-    ];
-    var current = 0;
-
-    function nextBackground() {
-        body.css(
-            'background',
-        backgrounds[current = ++current % backgrounds.length]);
-
-        setTimeout(nextBackground, 5000);
-        body.css('background-size','cover');
-    }
-    setTimeout(nextBackground, 5000);
-
-    body.css('background', backgrounds[0]+'no-repeat center center fixed');
-body.css('background-size','cover');
-
-
-});
-
-</script>
 </body>
 </html>

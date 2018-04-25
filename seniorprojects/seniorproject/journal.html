@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta http-equiv="Cache-Control" content="no-store" />
     <meta charset="UTF-8">
 <link rel="stylesheet" href="../seniorstylesheet.css">
 <script src="../js/jquery.min.js"></script>
 <script src="../js/contents.js"></script>
+<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+<style type="text/css">
+ html, body {
+   margin: 0;
+   padding: 0;
+ }
+
+ * {
+   box-sizing: border-box;
+ }
+
+ .slider {
+     width: 90%;
+     margin: 100px auto;
+ }
+
+ .slick-slide {
+   margin: 0px 20px;
+ }
+
+ .slick-slide img {
+   width: 100%;
+ }
+
+ .slick-prev:before,
+ .slick-next:before {
+     color: white;
+     font-size: 30px;
+ }
+</style>
+
 </head>
 <title> Senior Project Journal | Sophia's Senior Portfolio </title>
 <body>
@@ -26,88 +59,242 @@
     <div class="dropdown">
       <a href="../worksamples.html"><button class="seniornavbarbuttons" id="seniorprojects" style="vertical-align:middle"><span>WORK SAMPLES</span></button></a>
 <div class="dropdown-content">
-  <a href="#worksample1">PROJECT A</a>
-  <a href="#worksample2">PROJECT B</a>
-  <a href="#worksample3">PROJECT C</a>
-  <a href="#worksample4">PROJECT D</a>
+  <a href="../worksamples/worksample1.html">ROBOT PROJECT</a>
+  <a href="../worksamples/worksample2.html">MAKERS CLUB</a>
+  <a href="../worksamples/worksample3.html">SUSTAINABILITY ESSAY</a>
+  <a href="../worksamples/worksample4.html">BIOLOGY CELL PROJECT</a>
 </div>
 </div>
       <a href="../extracurriculars.html"><button class="seniornavbarbuttons" id="seniorprojects" style="vertical-align:middle"><span>EXTRACURRICULARS</span></button></a>
-  <a href="http://sophiasinternshipblog.weebly.com/"><button class="seniornavbarbuttons" id="seniorprojectsblog" style="vertical-align:middle"><span>INTERNSHIP BLOG</span></button></a>
+  <a href="../internship2017.html"><button class="seniornavbarbuttons" id="seniorprojectsblog" style="vertical-align:middle"><span>INTERNSHIP BLOG</span></button></a>
 
   </div></center>
 
- <center><div class="seniorcontentstuffs"><h4>JOURNAL</h4><br>
-Welcome to my Senior Project Journal.
+ <center><div class="seniorcontentstuffs"><h4>PROJECT JOURNAL</h4><br>
+<div class="regular slider" id="lessmargin">
+<div>
+<h5>Blog 13: 21st Century Skills (Part 1)</h5>
+       <div class="date"><span>6 Feb 2018</span></div>
+Communication
+<img src="images/update_communication.png" width="50%" color="white" border="2px">
+<p>I had a meeting with Mr. Murali yesterday (Feb 5) to discuss the curriculum, logistics of class, resources needed, and other details for my class this friday. I must make sure I communicate all the moving parts to Murali and that I receive his feedback on them to ensure that he’s in the loop and the class is a success. Another big part of this class is communicating effectively with the students. I have to find a way to make the curriculum fun, let my enthusiasm show, and speak loud enough for them to hear me when I’m presenting to the students.</p>
+<br>
+Interpersonal
+<img src="images/update_interpersonal.png" width="50%" color="white" border="2px">
+<p>I have to work well with students and teachers to make the class a success. I’m naturally fairly introverted, but this project has required the help of many other people and, for once, it’s not a project I can do only by myself. This includes doing interviews, surveys, and end of the day check-ins with students to make sure that the students are getting something out of the class. I will also be tweaking the class as I go with student feedback because the students are the users, and the class is the product. Gotta make sure they’re happy with how the class is going.</p>
+<p>Mentorship is also a huge part of this class. I have office hours for both meeting in person and over the web, and my Google chat and Slack channels are always open for students who need help. In general, I plan to go back and forth helping students with their code during class time, as well as checking in with every student here and there to make sure they’re doing alright.</p>
+<p>This class is very student centered; everywhere from the students choosing which projects they want to work on to a teaching approach that focuses on mentorship.</p>
+<br>
+Information
+<img src="images/update_information.png" width="50%" color="white" border="2px">
+<p>I had to brush up on my coding skills and learn new skills to be able to teach this class and hopefully be a good mentor. I also had to learn a lot about teaching - specifically, teaching code, which can be quite a struggle for even professional programmers (sometimes especially for them). </p>
+<p>I read up on a lot of literature about how people teach code, what’s wrong with the current way we teach code, and experimental ideas put forth by educators about how to make the process better for the students. It was inspiring and overwhelming at the same time; I incorporated a lot of these ideas, as well as ideas I received from professional programmers and things I observed from my own experience of learning code to put together this curriculum that I have now.</p>
+<p> I also realized through my research that motive is an important consideration when teaching people code. Nobody wants to feel like they’re being “forced” into a hobby or job pathway that doesn’t interest them. Rather, I feel that it’s important to teach code as a ‘skill’ that students can use to add to their existing interests, and choose to use in the future if they find it useful enough. Not everyone has to (or should) go into STEM, but a STEM education can be inherently valuable.</p>
+<br>
+Thinking & Problem Solving
+<img src="images/update_thinking.png" width="50%" color="white" border="2px">
+<p>Programming is problem solving. You constantly have to debug code, which means figuring out what went wrong, changing something, rinse wash repeat until you solved that problem. Then configure everything else to work around whatever it is you changed, if necessary. Programming is used in the real world to solve problems, all sorts of problems. From a marketing perspective, one could say that there is some functionality in a product that’s missing from the existing products. To solve that problem, you create your own product with that functionality and sell it. But in the bigger picture, that’s really all there is to it. You notice a lack of something somewhere in your workflow and you use this valuable skill to patch it up. You adjust the settings for you open source text editor, or program a website that’s better than the premade ones you’re used to. You make a better program that perfectly fits your needs as opposed than the ones already available, because that is something only you are capable of doing.</p>
+<p>Part of this class is teaching the thought process for coding. We will be teaching some basic logic to the students by having them play with conditionals, booleans, and other programming constructs. These constructs help them learn how to think, not just to think like a computer but to be able to break the world around them into algorithms. It teaches a different perspective that can come in handy with real world problems and can allow them to problem solve more creatively. There’s a reason why I like to say “When in doubt, think like an engineer”. </p>
+<br>
+IMPORTANT DATES: Please list important dates that I need to be aware of for your project. 
+<ul>
+<li>Friday, Feb 9: First programming class</li>
+<li>Friday, Feb 16: Second programming class</li>
+<li>Friday, Feb 23: Third programming class</li>
+<li>Week of Feb 26: Meet on Monday, Wednesday, and Friday for three programming classes that week.</li>
+</ul>
+</div>
+  <div>
+    <h5>Blog 11/12: Update</h5>
+       <div class="date"><span>30 Jan 2018</span></div>
+       <img src="images/codeupdate13017.png"  width="50%" color="white" border="2px">
+       <p>This photo features the code for one of the website’s pages (not the homepage - rather, the actual meat of the website). This week, I was mainly focusing on the UI and making everything look pretty. However, I was also concerned with the UX (user experience) and how the site itself would interact with the users.</p>
+       <p>This page is basically a template for everything else - all of the curriculum will be placed within that “lessonscontent” div. </p>
+
+       <img src="images/websiteupdate13017.png"  width="50%" color="white" border="2px">
+       <p>Here is the webpage that corresponds to the code before it. As you can see, it is a very simple template - I changed my original design and went with something that I thought would be more user-friendly. It’s missing the custom-designed arrows on the sides that I made, and I’m considering adding a drop-down menu on the left hand side to navigate the curriculum.</p>
+       <p>However, my current concern is now with getting all actual curriculum up, working on sign in features, and having a smooth way of transitioning between lessons.</p>
+
+       <img src="images/surveyupdate13017.png"  width="50%" color="white" border="2px">
+       <p>With that being said, one of the things I was working on the most this week was the initial survey for the class. While I was designing it, I was keeping in mind the assessment of both knowledge and attitude towards code, as well as demographics of the students. There are a lot of questions because I want to make sure I get a sizeable chunk of data out of this initial survey. However, most of them are multiple choice or checkbox questions, so I’m hoping they would be a very minor inconvenience to the students.</p>
+       <p>Data collection is a very important part of my project because I need to assess whether or not the students are learning and how their attitudes towards code have changed. While student interviews are nice and I hope to utilize them at the end of the course, hard anonymized data is nonetheless very important to get an accurate assessment of the class as a whole. I don’t want to just hear from the students who liked the class - I want to get a general picture of whether or not the class made a difference for most of the students.</p>
+       <p>GOAL</p>
+       ​<p>My next step is to use that template and start making a bunch of lessons and pages for all the curriculum. Just boring, tedious work, but someone’s gotta do it. Also, to finally mess around with the login stuff because I’ve been procrastinating on that part - and to make minor tweaks to the UX. But my immediate next step is getting everything up on the site.</p>
+
+        </div>
+
+	 <div>
+    <h5>Blog 10: Update</h5>
+       <div class="date"><span>12 Jan 2018</span></div>
+       <img src="images/update1122018.png" width="25%" color="white" border="2px"><br>
+<p>
+I was changing the way the curriculum was organized, to cater to students’ different interests. Not only is this a substantially simpler system, it removes some of the constraints that I was experiencing when I tried to make more specialized learning paths. It gives the students even more power over what they choose to learn in the class, without me having to do any extra work (since all the projects already existed in my previous organization - now they’re all available to every student by clicking checkboxes). Finally, I feel that this system is more transparent and more true to my vision of project based learning. The students don’t just choose a general topic they’re interested in, rather they get to choose the specific projects that they’d like to build.
+</p>
+<p> With this new organization in mind, I’m finishing up my project designs for the curriculum and have started working on the website itself. The webapp components will come later, should I choose to go the webapp route. I just want to get the content out there.
+</p>
+<p> It has been a struggle the last week or so to work on my project, as my Mac’s hardware started failing even more than before. I have to use both an external mouse and keyboard with it now, which makes the computer less portable and less easy to use (I can no longer use trackpad gestures, which severely limits my productivity on a Mac). All of my code, important programs, and most of my project files are on that computer, so I have to use it heavily right now. It doesn’t appear to be a very fixable problem (I looked it up and was unhappy with what I heard about possible repairs), but the Mac still functions well enough as a computer confined to my desk for use when I’m at home. However, I just ordered a new convertible chromebook online that I’ll be able to sync everything with and carry around with me day to day. It should arrive about two weeks from now.
+</p>
+<p>GOAL:<br>
+My next step is to implement the curriculum I have so far on the website and make it live.</p>
+
+        </div>
+  <div>
+    <h5>Blog 9: Update</h5>
+       <div class="date"><span>20 Dec 2017</span></div>
+       <p>Going more in depth in designing the lesson plans. Shifted focus from web app to curriculum workflow.</p>
+  <img src="images/update12202017.png" width="50%" color="white" border="2px"><br>
+        </div>
+  <div>
+    <h5>Blog 8: Update</h5>
+       <div class="date"><span>13 Dec 2017</span></div>
+       <p>Working on webapp tutorial. Got behind this week because of Running Start finals.</p>
+  <img src="images/update121417.png" width="50%" color="white" border="2px"><br>
+        </div>
+  <div>
+    <h5>Blog 7: Update</h5>
+       <div class="date"><span>5 Dec 2017</span></div>
+       <p>Working on finishing basic curriculum outlines for all pathways (week of Tuesday 12/5).</p>
+  <img src="images/update1.png" width="50%" color="white" border="2px"><br>
+        </div>
+  <div>
+    <h5>Blog 6: Goal Setting</h5>
+       <div class="date"><span>7 Dec 2017</span></div>
+       <p>Driving Question: How can I teach coding to students at Kihei Charter in an interesting and interactive way?</p>
+<p>Timeline:</p>
+<p>Week of Tuesday 12/5-Finished basic curriculum outlines for all pathways</p>
+<p>Week of Tuesday 12/12-Will have gotten through at least STEP 3 of the Creating a Web App from Scratch guide with my own web app. Basically, all the databases should be set up by now. </p>
+<p>Week of Tuesday 12/19-Will have gotten through at least STEP 6 of the Creating a Web App from Scratch guide with my own web app. Basically, AJAX Interactivity added to webapp.</p>
+<p>Week of Tuesday 12/26-Will have gotten through the entire Creating a Web App from Scratch guide. Should have a basic (non precious) prototype of the web app that I can beautify, add curriculum + media to, and modify.</p>
+<p> I would like to have a meeting with Mrs. Alexander about my project progression sometime during the week of December 5th, as I have important things to update her on (such as the tentative dates for the class I’m teaching). I would hope to meet with her on December 5th during class, however before class or on December 7th would definitely also be doable.</p>
+
+        </div>
+  <div>
+    <h5>Blog 5: Make Contact With A Mentor (Communication Skills)</h5>
+       <div class="date"><span>28 Nov 2017</span></div>
+          <img src="images/contact.png" width="50%" color="white" border="2px"><br>
+          Kris Murali (kmurali@kiheicharter.org) is the Engineering teacher at KCS. I am taking over his class for some time during quarter three and we are hopefully meeting today (as previously discussed last week) to go over some of the specifics for the schedule and which classes of students I will be teaching. This information is vital for the success of my project.
+  </div>
+  <div>
+    <h5>Blog 4: Status Update</h5>
+     <div class="date"><span>14 Nov 2017</span></div>
+    Current status of project:<br>
+<ul>
+<li>Got CodeKCS domain name <a href="http://codekcs.me/">http://codekcs.me/</a>. Whipped up a dummy page so that people have something to look at if they go to the site. Github repository exists and is configured to publish my code to the webpage.</li>
+<li>Created the design skeleton of the online portion in Sketch</li>
+<li>Completed SQL course on Codecademy so that I understand how to create the database</li>
+<li>Finished Java and Sass courses on Codecademy, to brush up on skills I want to teach in the course. Started working on some of their project based courses (Responsive Design, Deploying Websites) to see if I should have CodeKCS students work on them as assignments.</li>
+<li>Finished curriculum outline/details for Week One of CodeKCS. Finalized list of Pathways and their descriptions. Still finalizing which projects I want each pathway to work on.</li>
+<li>Put together general ideas for grading system, syllabus layout, and the overall structure of how I want to teach the class. Also put together a general idea of how the beta testing will work. I hope to have either virtual or physical office hours so that the beta testers will still have support.</li>
+<li>Still trying to figure out if we have enough time for a couple guest speakers via Google Hangouts. Will have to reach out to the guest speakers, however they are all already part of my network and I know that they would all be psyched to talk to KCS kids about code! :) </li>
+<li>Put together a general timeline for building & putting together the web app.</li>
+</ul>
+<p><a href="https://docs.google.com/a/kiheicharter.org/document/d/1v5mD1uLn2detlEW82R9SBGfySiQiRestl4WKLDTbAhM/edit?usp=sharing">Here's</a> the link to the ideas and general curriculum for the program.</p>
+<img src="images/progress1.png" width="50%" color="white" border="2px">
+   <img src="images/progress2.png" width="50%" color="white" border="2px">
+   <img src="images/progress3.png" width="50%" color="white" border="2px">
+   <img src="images/progress4.png" width="50%" color="white" border="2px">
+   <img src="images/progress5.png" width="50%" color="white" border="2px">
+  </div>
+
+  <div>
+    <h5>Blog 3: Research (Information Skills)</h5>
+     <div class="date"><span>14 Nov 2017</span></div>
+     <img src="images/research.jpg" width="50%" color="white" border="2px">
+<p>Thus far in my research, I learned a lot about the negative effects of coding stereotypes on students. One of the most pressing examples that I hadn’t considered right now was the effect of the male programmer stereotype on young girls who are interested in programming. One study showed that both male and female children associated males with programming and said that boys are naturally better at programming, despite that not necessarily being the case in their own classroom. This study, as well as others, illustrated that stereotypes about programming can start as young as first grade. Apart from gender stereotypes, many young people have picked up stereotypes about computer programmers being antisocial and bad communicators, which adds to the established negative feelings many students already have towards code. Finally, in my research, I looked into computational learning and how to measure that in students. Basically, this means measuring how well students have picked up the ‘programming mentality’. One of the best ways to measure this is by taking a look at the variation of data structures used by students when they code (either using Scratch or a different language). More variation and creativity with code shows true understanding, while seeing the same things over again either indicate copy/pasting or a not quite deep understanding. Such things, of course, aren’t black and white. When it comes to grading code, I have decided that I’m better off grading qualitatively, factoring in what I know about the student, rather than just trying to crunch quantitative data.</p>
+<p>Sources:
+<br>
+http://blogs.edweek.org/edweek/curriculum/2017/05/gender_stereotypes_coding_ability_start_young_1st_grade.html
+<br>
+https://medium.com/@WordcorpGlobal/programming-doesnt-require-talent-or-even-passion-11422270e1e4
+<br>
+https://www.linkedin.com/pulse/you-think-computer-programmers-poor-communicators-may-warshaw
+<br>
+http://fortune.com/2015/07/28/2-billion-under-20/
+<br>
+https://www.forbes.com/sites/georgeanders/2015/07/29/liberal-arts-degree-tech/#72ffe8ad745d
+<br>
+http://scratched.gse.harvard.edu/ct/files/AERA2012.pdf
+</p>
+<p>All of these sources are related to programming education and what it’s like to be a programmer in the real world. I would say that they’re all fairly reliable because every single one of them comes from a source that is well known for credibility. If there was an error or a bias, the authors would be more likely to add a correction. The least reliable of them is perhaps the Medium article, however I was referring to it more as a blog/real life experience article rather than a source for hard data.</p>
+
+
+ </div>
+ <div>
+   <h5>Blog 2: Timeline</h5>
+      <div class="date"><span>19 Oct 2017</span></div>
+      <ul>
+<li>October: Work on curriculum, finish project proposal. Meet with Mrs. Alexander.</li>
+<li>November: Finish research essay, finish initial curriculum. Meet with Mrs. Alexander about curriculum. Build website.</li>
+<li>December: Create all the media, activities, etc. for the website during December and over break. Order stickers + pins.</li>
+<li>January: Open up beta testing for website. Collect surveys + feedback for 4 week beta testing period (this includes over break). </li>
+<li>February: Tweak and modify material + website based on feedback. Meet with Mrs. Alexander and Mr. Murali to confirm that everything looks good for class.</li>
+<li>March: Teach the class in March and April. Collect feedback, see if it has to be modified. Be at the class to help students with the material.</li>
+<li>April: Finish teaching the class. Analyze the feedback + surveys, create a detailed report, present those findings.</li>
+</ul>
+  </div>
+  <div>
+   <h5>Blog 1: Driving Question & Measurable Goal</h5>
+    <div class="date"><span>19 Oct 2017</span></div>
+    <p><b>Driving Question:</b> How can I teach coding to students at Kihei Charter in an interesting and interactive way?
+</p>
+Goals:
+<ul>
+  <li>Have every student complete a final coding project based on their passions that shows what they learned in the class. </li>
+  <li>Give the students a survey about how useful the class was, if they feel that they've grown as a programmer, if it changed their perspectives about coding, etc. Get positive feedback on all those areas by at least 70% of the class.</li>
+  <li>Based on computational learning tests, students will show at least a 50% improvement in computational learning/problem solving by the end of the course. </li>
+</ul>
+
+
+</div>
+
+<div>
+  <div>  <h5>DAYS 0: "NEWSPAPER ARTICLE"</h5>
+    <div class="date"><span>25 Aug 2017</span></div>
+    <a href="images/seniorprojectsnewspaper2.png" title="Fake Newspaper Article - Click to view" target="blank"><img src="images/seniorprojectsnewspaper2.png" width="99%"></img></a>
+  <div class="clicktoview">Click Image To View</div>
+  <img src="images/newspapercomments1.png" width="49.5%"></img>
+  <img src="images/newspapercomments2.png" width="49.5%"></img></div>
+</div>
+<div>
+  <div> <h5>DAYS 0: DRIVING QUESTIONS</h5>
+  <div class="date"><span>24 Aug 2017</span></div>
+   <a href="images/drivingquestionweb_bigger.png" title="Driving Question Web - Click to view" target="blank"><img src="images/drivingquestionweb.png" width="99%"></img></a>
+   <div class="clicktoview">Click Image To View</div></div>
+</div>
+<div>
+  <h5>DAYS 0: MINDMAPS</h5>
+    <div class="date"><span>17 Aug 2017</span></div>
+    My First Idea:
+    <a href="images/mindmap_healthcareapp.png" title="Original Health Care App Mindmap - Click to view" target="blank"><img src="images/mindmap_healthcareapp.png" width="99%"></img></a>
+  <div class="clicktoview">Click Image To View</div>
+    First Idea, Revised:
+    <a href="images/mindmap_healthcareapp_revised.png" title="Revised Health Care App Mindmap - Click to view" target="blank"><img src="images/mindmap_healthcareapp_revised.png" width="99%"></img></a>
+  <div class="clicktoview">Click Image To View</div>
+    Another Idea:
+    <a href="images/mindmap_exoskeleton.png" title="Exoskeleton Mindmap - Click to view" target="blank"><img src="images/mindmap_exoskeleton.png" width="99%"></img></a>
+  <div class="clicktoview">Click Image To View</div>
+
+</div>
     </div>
 
     <br>
     <div class="footer">&#169 Sophia Davis 2017</div>
 </center>
-<div class="hidden">
-	<script type="text/javascript">
-		<!--//--><![CDATA[//><!--
 
-			if (document.images) {
-				img1 = new Image();
-				img2 = new Image();
-				img3 = new Image();
-        img4 = new Image();
-				img5 = new Image();
-				img6 = new Image();
-        img7 = new Image();
-				img8 = new Image();
-				img9 = new Image();
-        img10 = new Image();
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay:false,
+        speed:1000
+      });
 
-				img1.src = "../images/1.jpg";
-				img2.src = "../images/2.jpg";
-				img3.src = "../images/3.jpg";
-        img4.src = "../images/4.jpg";
-				img5.src = "../images/5.jpg";
-				img6.src = "../images/6.jpg";
-        img7.src = "../images/7.jpg";
-				img8.src = "../images/8.jpg";
-				img9.src = "../images/9.jpg";
-        img10.src = "../images/10.jpg";
-			}
-
-		//--><!]]>
-	</script>
-</div>
-<script>
-$(function () {
-    var body = $('body');
-    var backgrounds = [
-      'url(../images/1.jpg)',
-      'url(../images/2.jpg)',
-      'url(../images/3.jpg)',
-      'url(../images/4.jpg)',
-      'url(../images/5.jpg)',
-      'url(../images/6.jpg)',
-      'url(../images/7.jpg)',
-      'url(../images/8.jpg)',
-      'url(../images/9.jpg)',
-      'url(../images/10.jpg)',
-    ];
-    var current = 0;
-
-    function nextBackground() {
-        body.css(
-            'background',
-        backgrounds[current = ++current % backgrounds.length]);
-
-        setTimeout(nextBackground, 5000);
-        body.css('background-size','cover');
-    }
-    setTimeout(nextBackground, 5000);
-
-    body.css('background', backgrounds[0]+'no-repeat center center fixed');
-body.css('background-size','cover');
-
-
-});
-
-</script>
+    });
+  </script>
 </body>
 </html>

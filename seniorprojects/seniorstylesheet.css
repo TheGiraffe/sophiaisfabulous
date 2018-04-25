@@ -2,13 +2,22 @@
 @import url(css/fonts/uppereastside/stylesheet.css);
 @import url(css/icons/foundation-icons.css);
 body{
+  background-image: url("images/background.gif");
+  background-position: top center;
+  background-size:cover;
+  background-color: black;
+  background-attachment: fixed;
+  background-repeat: repeat-y;
 color: white;
 font-family: 'caviar_dreamsregular';
 padding-left:20px;
 padding-right:20px;
-font-size: 18px;
+font-size: 15px;
 height: 100%;
 width: 100%;
+}
+a{
+  color: green;
 }
   html {
     position: relative;
@@ -80,6 +89,7 @@ h5{
   margin-bottom: 10px;
   margin-top: 10px;
 padding: 10px;
+text-transform: uppercase;
 }
 .webtitle{
   font-family:'uppereastsideregular';
@@ -97,7 +107,7 @@ padding: 10px;
   margin-top: 10px;
   width: 90%;
   display: block;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.6);
   display: block;
   border-color: white;
   border-width: thin;
@@ -189,7 +199,7 @@ padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
     position: relative;
     top: 15%;
@@ -312,10 +322,10 @@ box-shadow: 5px 5px #e8eaed;
 /*END OF CONTENT GRID STUFF */
 .seniorcontentstuffs{
   width: 60%;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin: 10px;
+  padding: 10px;
   position: static;
-background-color: rgba(0,0,0,0.5);
+background-color: rgba(0,0,0,0.6);
   top:15%;
   right: 25%;
   left: 25%;
@@ -328,4 +338,216 @@ margin-bottom: 10px;
 margin-left: -20px;
 margin-right: -20px;
 /*background-color: rgba(0,0,0,0.5);*/
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px;
+  grid-auto-rows: minmax(100px, auto);
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-style: dotted;
+  border-width: thin;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.profile{
+  margin:5%;
+  grid-column: 1 / 2;
+  grid-row: 1/3;
+  border-radius: 50%;
+  background-image: url("images/profilelowpoly2.png");
+  background-position: center;
+  background-size: cover;
+  border-style: dotted;
+  border-width: thin;
+}
+.profile:hover{
+  background-image: url("images/profile.png");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.description{
+  grid-column:2 / 4;
+  grid-row: 1/3;
+  margin-top:25%;
+  font-size: 15px;
+}
+.options{
+grid-column: 1/4;
+grid-row: 3/4;
+}
+.resumesection{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  background-color: green;
+  border-style: none;
+  padding: 10px;
+  margin-top: 5%;
+  font-size: 10px;
+  color: white;
+  font-family: 'caviar_dreamsregular';
+}
+.resumesection:hover{
+  background-color: black;
+}
+
+.moreinfo {
+  background-color: transparent;
+    border: none;
+    border-bottom: solid;
+    border-color: green;
+    color: white;
+    font-family: 'caviar_dreamsregular';
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    top: 15%;
+    bottom: 50%;
+}
+.moreinfo span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.moreinfo span:after {
+  content: '\0025bc';
+  color: white;
+  font-size: 15px;
+  font-family: "foundation-icons";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+
+
+.moreinfo:hover span {
+  padding-right: 20px;
+  color: white;
+}
+
+.moreinfo:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.works{
+  margin-top: 1px;
+  float: left;
+  list-style-type: none;
+}
+.wdesc{
+  font-size: 12px;
+  margin: 3px;
+}
+.cdesc{
+  font-size: 12px;
+  margin: 3px;
+}
+.courses{
+  margin-top: 1px;
+  list-style-type: none;
+}
+.edesc{
+  font-size: 12px;
+  margin: 3px;
+}
+.extracurricular{
+  margin-top: 1px;
+  list-style-type: none;
+}
+#reflink{
+  color: white;
+}
+#reflink:hover{
+  color: green;
+}
+.skills{
+  margin-top: 1px;
+  list-style-type: square;
+}
+.lessspace{
+  margin-top: -5px;
+}
+#aboutmenarrative{
+  padding:20px;
+
+}
+.contentbelow {
+  background-color: transparent;
+    border: none;
+    color: white;
+    margin: -10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+
+}
+.contentbelow:hover{
+  color: green;
+}
+.contentbelow span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.contentbelow span:after {
+  content: '\25bc';
+  color: white;
+  font-size: 18px;
+  font-family: "foundation-icons";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom:0;
+top: -5px;
+  transition: 0.5s;
+  margin-top: -30px;
+}
+
+
+.contentbelow:hover span {
+  padding-bottom: 10px;
+  color: white;
+}
+
+.contentbelow:hover span:after {
+  opacity: 1;
+  top: 0;
+}
+#dblclicks{
+margin-top: -15px;
+margin-bottom: 0px;
+}
+#lessmargin{
+  margin-top: -20px;
+}
+#less-ishmargin{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#removemargin{
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+.borderedimage{
+  border-color: white;
+  border-style: solid;
+  border-width: medium;
+}
+#smallertextcontent{
+  font-size: 12px;
 }

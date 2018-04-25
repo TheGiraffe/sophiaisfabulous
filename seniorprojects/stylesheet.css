@@ -2,12 +2,12 @@
 @import url(fonts/uppereastside/stylesheet.css);
 @import url(icons/foundation-icons.css);
 body{
-background-image: url("background.png");
-background-position: top left;
+background-image: url("images/background.gif");
+background-position: top center;
 background-size:cover;
 background-color: black;
-background-attachment: scroll;
-background-repeat: no-repeat;
+background-attachment: fixed;
+background-repeat: repeat-y;
 color: #00e6ac;
 font-family: 'caviar_dreamsregular';
 padding-left:20px;
