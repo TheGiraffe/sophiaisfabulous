@@ -4,8 +4,8 @@ title: Cell Town | Sophia Davis
 iconsource: ../css/icon.png
 projectname: Cell Town
 projectdate: August 2015 (original)<br>Revisited in 2022
-projectdescription: <p>Designing medical devices that are friendlier, less threatening, and overall provide a better user experience - particularly for children, who may feel quite scared after being diagnosed with asthma. Friendlier, more eye-catching designs for medical products may also help reduce medical non-adherence, particularly for daily preventative treatments.</p>
-projectlinks: <a href="https://thegiraffe.github.io/seniorprojectjournal/">https://thegiraffe.github.io/seniorprojectjournal/</a>
+projectdescription: <p>Designed and built a “Cell Town” in Sketchup, then made a video of it, for a Cell Analogy project in my sophomore year of highschool. Revisting the project now as an adult studying biomedical engineering, with the question of how digital tools and analogies can be used to help teach complicated topics such as biology. </p>
+projectlinks: <a href="#">Visit Cell Town Virtual World</a><br><a href="https://youtu.be/B3gHXCdYnr0">How A Cell Is Like A Town Video</a><br><a href="http://seniorprojects.sophiaisfabulous.com/worksamples/worksample4.html">Sophomore Year Work Sample Writeup</a>
 projecttags: Blender
 bannerimagesrc: img/CellTown_Banner.png
 bannerimagealttext: Photo Banner of CellTown, virtual world project

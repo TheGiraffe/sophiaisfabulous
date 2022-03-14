@@ -4,8 +4,8 @@ title: CodeKCS | Sophia Davis
 iconsource: ../css/icon.png
 projectname: CodeKCS
 projectdate: October 2017 - May 2018
-projectdescription: <p>Designing medical devices that are friendlier, less threatening, and overall provide a better user experience - particularly for children, who may feel quite scared after being diagnosed with asthma. Friendlier, more eye-catching designs for medical products may also help reduce medical non-adherence, particularly for daily preventative treatments.</p>
-projectlinks: <a href="https://thegiraffe.github.io/seniorprojectjournal/">https://thegiraffe.github.io/seniorprojectjournal/</a>
+projectdescription: <p>Taught coding classes at my high school as part of my Senior Project, and continued to design coding curriculum afterward. Taught four weeks of coding classes (six classes total) to the Sophomore engineering class, which gave me just enough time to introduce the students to the joys of creative programming.</p>
+projectlinks: <a href="https://codekcs.me/">CodeKCS Website</a><br><a href="https://bit.ly/35DD9pu">KCS Code Zine</a><br><a href="http://seniorprojects.sophiaisfabulous.com/seniorproject.html">Senior Projects Website</a><br><a href="https://thegiraffe.github.io/seniorprojectjournal/">Senior Project Journal</a>
 projecttags: Blender
 bannerimagesrc: img/CodeKCS_Banner.png
 bannerimagealttext: Photo Banner of CodeKCS web design, graphic design, stickers, and zines.
@@ -14,7 +14,15 @@ bannerimagealttext: Photo Banner of CodeKCS web design, graphic design, stickers
 <br>Video was filmed, edited, and produced by Christine Davis for Akaku Project YBeam in 2018</center>
 ## Overview
 
-Basic description or summary of the work sample here:
+I taught coding classes at my high school as part of my Senior Project, and then
+continued to design coding curriculum afterward. This project involved teaching four
+weeks of coding classes (six classes total) to the Sophomore engineering class. Outside
+of the class, I tried to increase code literacy at my school by creating a KCS Code Club,
+as well as designing and distributing a "KCS Code Zine" publication that focused on
+Creative Programming. I designed and printed lots of qr code stickers linking to the
+CodeKCS website and put them in the front office for people to take and scan. I also
+designed fliers to advertise the Code Club, and built and designed the CodeKCS website
+from scratch with HTML/CSS/JS to showcase learning resources.
 
 - What it is
 - What it does
@@ -30,6 +38,10 @@ Basic description or summary of the work sample here:
 <div class="sketchfab-embed-wrapper"> <iframe title="binaryabacus" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="720" height="480" src="https://sketchfab.com/models/786d736700a04612b8ce9ebf31d4e038/embed?autostart=1&camera=0"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/binaryabacus-786d736700a04612b8ce9ebf31d4e038?utm_medium=embed&utm_campaign=share-popup&utm_content=786d736700a04612b8ce9ebf31d4e038" target="_blank" style="font-weight: bold; color: #1CAAD9;"> binaryabacus </a> by <a href="https://sketchfab.com/thegiraffe?utm_medium=embed&utm_campaign=share-popup&utm_content=786d736700a04612b8ce9ebf31d4e038" target="_blank" style="font-weight: bold; color: #1CAAD9;"> TheGiraffe </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=786d736700a04612b8ce9ebf31d4e038" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
 </center>
 
+<p align="center">
+<img width="50%" src = "img/codekcs/abacus.jpg" alt="First Concept Sketch from Brainstorming">
+</p>
+
 ## Design Process
 
 - Describe the process of designing this project
@@ -38,11 +50,41 @@ Basic description or summary of the work sample here:
 - Include sketches, previous drafts, all design documentation
 - Show everything leading up to the final design, talk about all the hard work that went into the final product
 
+<p align="center">
+<img width="75%" src = "img/codekcs/homepage.png" alt="First Concept Sketch from Brainstorming">
+</p>
+
+<p align="center">
+<img width="75%" src = "img/codekcs/kcscodezine.png" alt="First Concept Sketch from Brainstorming">
+</p>
+
+<p align="center">
+<img width="75%" src = "img/codekcs/lessons.png" alt="First Concept Sketch from Brainstorming">
+</p>
+
+<p align="center">
+<img width="50%" src = "img/codekcs/lessonsassets.png" alt="First Concept Sketch from Brainstorming">
+</p>
+
+<p align="center">
+<img width="50%" src = "img/codekcs/poster.png" alt="First Concept Sketch from Brainstorming">
+</p>
+
+<p align="center">
+<img width="25%" src = "img/codekcs/sticker1.jpg" alt="First Concept Sketch from Brainstorming">
+<img width="25%" src = "img/codekcs/sticker2.jpg" alt="First Concept Sketch from Brainstorming">
+</p>
+
+
 ## The Future
 
 - Talk about any future plans or improvements that you would make on the final product, or...
 - Alternatively, talk about how the skills learned from this work will help you in your future career.
 - Maybe show personal growth & improvement here.
+
+<p align="center">
+<img width="30%" src = "img/codekcs/image1.jpeg" alt="First Concept Sketch from Brainstorming">
+</p>
 
 ## Skills and Software Used
 

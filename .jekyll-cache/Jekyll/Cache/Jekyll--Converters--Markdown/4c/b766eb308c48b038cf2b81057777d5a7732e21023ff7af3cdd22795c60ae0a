@@ -1,0 +1,72 @@
+I"i<center><iframe width="560" height="315" src="https://www.youtube.com/embed/p5lorCKeFW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<br />Video was filmed, edited, and produced by Christine Davis for Akaku Project YBeam in 2018</center>
+<h2 id="overview">Overview</h2>
+
+<p>I taught coding classes at my high school as part of my Senior Project, and then
+continued to design coding curriculum afterward. This project involved teaching four
+weeks of coding classes (six classes total) to the Sophomore engineering class. Outside
+of the class, I tried to increase code literacy at my school by creating a KCS Code Club,
+as well as designing and distributing a “KCS Code Zine” publication that focused on
+Creative Programming. I designed and printed lots of qr code stickers linking to the
+CodeKCS website and put them in the front office for people to take and scan. I also
+designed fliers to advertise the Code Club, and built and designed the CodeKCS website
+from scratch with HTML/CSS/JS to showcase learning resources.</p>
+
+<ul>
+  <li>What it is</li>
+  <li>What it does</li>
+  <li>Why it was Made</li>
+  <li>Why I am proud of it / included it in the portfolio</li>
+  <li>Important Links (to demos, etc. if applicable and if the sample is not able to be embedded)</li>
+</ul>
+
+<center>
+<iframe id="issue01" width="720" height="480" src="//e.issuu.com/embed.html#34233579/63762773" allowfullscreen="" frameborder="0"></iframe>
+</center>
+
+<center>
+<div class="sketchfab-embed-wrapper"> <iframe title="binaryabacus" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="" execution-while-out-of-viewport="" execution-while-not-rendered="" web-share="" width="720" height="480" src="https://sketchfab.com/models/786d736700a04612b8ce9ebf31d4e038/embed?autostart=1&amp;camera=0"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/binaryabacus-786d736700a04612b8ce9ebf31d4e038?utm_medium=embed&amp;utm_campaign=share-popup&amp;utm_content=786d736700a04612b8ce9ebf31d4e038" target="_blank" style="font-weight: bold; color: #1CAAD9;"> binaryabacus </a> by <a href="https://sketchfab.com/thegiraffe?utm_medium=embed&amp;utm_campaign=share-popup&amp;utm_content=786d736700a04612b8ce9ebf31d4e038" target="_blank" style="font-weight: bold; color: #1CAAD9;"> TheGiraffe </a> on <a href="https://sketchfab.com?utm_medium=embed&amp;utm_campaign=share-popup&amp;utm_content=786d736700a04612b8ce9ebf31d4e038" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+</center>
+
+<h2 id="design-process">Design Process</h2>
+
+<ul>
+  <li>Describe the process of designing this project</li>
+  <li>Images of important design elements</li>
+  <li>Descriptions and justifications for important design decisions</li>
+  <li>Include sketches, previous drafts, all design documentation</li>
+  <li>Show everything leading up to the final design, talk about all the hard work that went into the final product</li>
+</ul>
+
+<p align="center">
+<img width="40%" src="img/codekcs/homepage.png" alt="First Concept Sketch from Brainstorming" />
+</p>
+
+<p align="center">
+<img width="40%" src="img/codekcs/lessons.png" alt="First Concept Sketch from Brainstorming" />
+</p>
+
+<p align="center">
+<img width="40%" src="img/codekcs/codezine.png" alt="First Concept Sketch from Brainstorming" />
+</p>
+
+<h2 id="the-future">The Future</h2>
+
+<ul>
+  <li>Talk about any future plans or improvements that you would make on the final product, or…</li>
+  <li>Alternatively, talk about how the skills learned from this work will help you in your future career.</li>
+  <li>Maybe show personal growth &amp; improvement here.</li>
+</ul>
+
+<h2 id="skills-and-software-used">Skills and Software Used</h2>
+
+<ul>
+  <li>List the skills and software used for this project</li>
+</ul>
+
+<h2 id="additional-links-and-resources">Additional Links and Resources</h2>
+
+<ul>
+  <li>List additional links, bibliography, etc</li>
+</ul>
+:ET
