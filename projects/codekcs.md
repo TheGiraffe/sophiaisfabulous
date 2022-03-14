@@ -1,6 +1,7 @@
 ---
 layout: project
 title: CodeKCS | Sophia Davis
+iconsource: ../css/icon.png
 projectname: CodeKCS
 projectdate: October 2017 - May 2018
 projectdescription: <p>Designing medical devices that are friendlier, less threatening, and overall provide a better user experience - particularly for children, who may feel quite scared after being diagnosed with asthma. Friendlier, more eye-catching designs for medical products may also help reduce medical non-adherence, particularly for daily preventative treatments.</p>

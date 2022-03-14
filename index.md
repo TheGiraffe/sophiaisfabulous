@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Homepage
+iconsource: css/icon.png
 ---
 # <span class="darkpink_highlight">Hello, World! I am Sophia. :)</span>
 <br>
