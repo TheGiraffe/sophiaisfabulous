@@ -1,0 +1,114 @@
+body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #cfeee9ff;
+}
+.nav-link{
+  font-size:0.8rem;
+  color: black;
+  font-weight: 500;
+}
+main{
+  display: flex;
+  width: 100% !important;
+  height: 94vh !important;
+}
+.nav-link:hover{
+  color: black;
+  border-bottom-width: medium;
+  border-bottom-style: solid;
+  border-bottom-color: #ff73d4;
+  background-color: #fcd7f1;
+  transition-duration: 0.3s;
+}
+.social :hover{
+  color: #ff73d4;
+  transition-duration: 0.3s;
+}
+#home{
+  background: url('CellRoad.gif');
+  background-size: cover;
+  width: 97vw !important;
+  height:90vh !important;
+  margin-left: 1.4vw;
+  margin-right: 1vw;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  padding: 1vh;
+  font-family: 'Quicksand', sans-serif;
+}
+#home h1{
+  font-weight: 700 !important;
+  font-size: 2.75vw;
+  margin-bottom: 0.25em;
+}
+#home h2{
+  font-weight: 700 !important;
+  font-size: 2vw;
+}
+.darkpink_highlight{
+  background-color: #ff73d4;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.lightpink_highlight{
+  background-color: #fcd7f1;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+#project_page{
+  background-color: #cfeee9ff;
+}
+#project_sidebar{
+  background-color: #434343ff;
+  color: white;
+  font-size: 0.85rem;
+  padding: 2.5em;
+  height: 94vh;
+}
+#project_sidebar_name{
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+#project_sidebar_date{
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.project_sidebar_heading{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.project_sidebar_links a{
+  color: #fcd7f1;
+  font-family: 'Quicksand', sans-serif;
+}
+.project_sidebar_links a span:before{
+  content: '<< ';
+}
+.share{
+  color:white;
+  margin: 0.5rem;
+  text-decoration: none;
+}
+.share:hover{
+  color:#fcd7f1;
+  transition-duration: 0.3s;
+}
+#project_content{
+  background-color: #dbf8f3ff;
+  height: 94vh;
+  overflow-y: scroll;
+}
+#about{
+background: url('bg.png');
+background-size: cover;
+}
+
+#contact{
+  background: url('collage.jpeg');
+  background-repeat: repeat;
+  background-size: contain;
+}
