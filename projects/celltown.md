@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Cell Town | Sophia Davis
+title: Cell Town
 iconsource: ../css/icon.png
 projectname: Cell Town
 projectdate: August 2015 (original)<br>Revisited in 2022

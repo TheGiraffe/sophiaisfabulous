@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Asthimo | Sophia Davis
+title: Asthimo
 iconsource: ../css/icon.png
 projectname: Asthimo
 projectdate: April 2020

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: CodeKCS | Sophia Davis
+title: CodeKCS
 iconsource: ../css/icon.png
 projectname: CodeKCS
 projectdate: October 2017 - May 2018

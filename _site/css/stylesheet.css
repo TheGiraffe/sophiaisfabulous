@@ -102,6 +102,12 @@ main{
   height: 94vh;
   overflow-y: scroll;
 }
+#default_page{
+  background-size: cover;
+}
+.sidebar{
+  color: white;
+}
 #about{
 background: url('bg.png');
 background-size: cover;
