@@ -71,8 +71,17 @@ from scratch with HTML/CSS/JS to showcase learning resources.
 </p>
 
 <p align="center">
-<img width="25%" src = "img/codekcs/sticker1.jpg" alt="First Concept Sketch from Brainstorming">
-<img width="25%" src = "img/codekcs/sticker2.jpg" alt="First Concept Sketch from Brainstorming">
+<img width="9%" src = "img/codekcs/html.png" alt="First Concept Sketch from Brainstorming">
+<img width="9%" src = "img/codekcs/css.png" alt="First Concept Sketch from Brainstorming">
+<img width="9%" src = "img/codekcs/js.png" alt="First Concept Sketch from Brainstorming">
+<img width="9%" src = "img/codekcs/jquery.png" alt="First Concept Sketch from Brainstorming">
+<img width="9%" src = "img/codekcs/codekcs.png" alt="First Concept Sketch from Brainstorming">
+<img width="9%" src = "img/codekcs/codekcs_design_qr.png" alt="First Concept Sketch from Brainstorming">
+</p>
+
+<p align="center">
+<img width="28%" src = "img/codekcs/sticker1.jpg" alt="First Concept Sketch from Brainstorming">
+<img width="28%" src = "img/codekcs/sticker2.jpg" alt="First Concept Sketch from Brainstorming">
 </p>
 
 
