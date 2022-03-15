@@ -53,5 +53,41 @@ My high school biology teacher, Ms. Wilson, was especially very supportive of my
 
 If you would like to read some of my original thoughts and insights from this project, this link contains a reflection on the work sample that was written back in 2015, a couple months after I completed the project: <a href="http://seniorprojects.sophiaisfabulous.com/worksamples/worksample4.html">Sophomore Year Work Sample Writeup</a>
 
-<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yQ9JUH_FVTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p align="center">
+<img width="75%" src = "img/celltown/celltown.png" alt="">
+</p>
+<p align="center">
+<img width="30%" src = "img/celltown/CellTownThumbnail.JPG" alt="">
+<img width="30%" src = "img/celltown/Centriole_City Blueprints.JPG" alt="">
+<img width="30%" src = "img/celltown/Centriole_City Blueprints.PNG" alt="">
+</p>
+
+## Revisiting Cell Town
+
+### Importing into Blender - First Attempts
+<p align="center">
+<img width="22%" src = "img/celltown/CellTown_V1.0.png" alt="">
+<img width="22%" src = "img/celltown/CellTown_V1.0_bluebg.png" alt="">
+<img width="22%" src = "img/celltown/CellTown_V1.0_shaders.png" alt="">
+<img width="22%" src = "img/celltown/CellTown_V1.0_shaders2.png" alt="">
+</p>
+### Second Blender Attempt + Materials, Environment, & Rendering
+<p align="center">
+<img width="45%" src = "img/celltown/CellTown_V1.0_colours.png" alt="">
+<img width="45%" src = "img/celltown/CellTown_V1.0_top_render.png" alt="">
+</p>
+
+### Vesicle Transport Animation
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/yQ9JUH_FVTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<p align="center">
+<img width="45%" src = "img/celltown/CellTown_V1.0_top_render_rectangle.png" alt="">
+</p>
+<p align="center">
+<img width="75%" src = "img/celltown/CellRoad.gif" alt="">
+</p>
+
+### Unity, Virtual Worlds, and the Monaverse
+<p align="center">
+<img width="45%" src = "img/celltown/celltown_sophia_2.png" alt="">
+<img width="45%" src = "img/celltown/celltown_sophia.png" alt="">
+</p>
