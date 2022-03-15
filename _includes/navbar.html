@@ -5,15 +5,22 @@
       Sophia Davis
     </a>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <a class = "nav-link active" href="{{ site.url }}/projects/" id="projectGalleryLink">Project Gallery</a>
-      <a class = "nav-link active" href="{{ site.url }}/goalsandinterests2022" id="currentGoalsLink">Current Goals and Interests</a>
+      <div class = "nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="projectGalleryDropdownLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Project Gallery
+        </a>
+        <ul class = "dropdown-menu" aria-labelledby="projectGalleryDropdownLink">
+          <li><a class = "nav-link dropdown-item" href="{{ site.url }}/projects/dreamproject" id="dreamProjectLink">My Dream Project</a></li>
+          <li><a class = "nav-link active" href="{{ site.url }}/projects/" id="projectGalleryLink">Project Gallery</a></li>
+        </ul>
+      </div>
+      <a class = "nav-link active" href="{{ site.url }}/goalsandinterests2022" id="currentInterestsLink">Current Interests</a>
       <div class = "nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="futureAspirationsDropdownLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         Future Aspirations
       </a>
       <ul class = "dropdown-menu" aria-labelledby="futureAspirationsDropdownLink">
         <li><a class = "nav-link dropdown-item" href="{{ site.url }}/futureaspirations/research" id="researchInterestsLink">Research Interests</a></li>
-        <li><a class = "nav-link dropdown-item" href="{{ site.url }}/futureaspirations/dreamproject" id="dreamProjectLink">My Dream Project</a></li>
         <li><a class = "nav-link dropdown-item" href="{{ site.url }}/futureaspirations" id="futureGoalsLink">Future Goals</a></li>
       </ul>
       </div>
@@ -28,16 +35,26 @@
       </div>
       <div class = "nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="contentCreationDropdownLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Art and Content Creation
+        Content Creation
       </a>
       <ul class = "dropdown-menu" aria-labelledby="contentCreationDropdownLink">
-        <li><a class = "nav-link dropdown-item" href="https://www.instagram.com/mildly.afraid.of.the.art/" id="artInstaLink">@mildlyafraidoftheart</a></li>
         <li><a class = "nav-link dropdown-item" href="https://www.youtube.com/channel/UCgGn_uuSd-UJyVedUkA6_wg" id="youtubeChannelLink">Youtube Channel</a></li>
       </ul>
       </div>
+      <div class = "nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="artDropdownLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Art
+      </a>
+      <ul class = "dropdown-menu" aria-labelledby="artDropdownLink">
+        <li><a class = "nav-link dropdown-item" href="https://www.instagram.com/mildly.afraid.of.the.art/" id="artInstaLink">@mildly.afraid.of.the.art</a></li>
+        <li><a class = "nav-link dropdown-item" href="https://www.redbubble.com/people/sophianedda/explore" id="redbubbleLink">Redbubble</a></li>
+      </ul>
+      </div>
+      <!--
       <a class = "nav-link active" href="{{ site.url }}/about" id="aboutLink">About</a>
       <a class = "nav-link active" href="{{ site.url }}/news" id="newsLink">News</a>
       <a class = "nav-link active" href="{{ site.url }}/contact" id="contactLink">Contact</a>
+      -->
     </div>
     <!--Socials -->
     <a class = "navbar-brand social" href="https://github.com/TheGiraffe" target="_blank">

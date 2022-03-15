@@ -22,8 +22,13 @@
           <div class="col-md-6" id="project_content">
             <div class="p-2">
             <h1>{{ page.title }}</h1>
-            <h2>{{ page.subtitle }}</h2>
+            <h3>{{ page.subtitle }}</h3>
             <hr>
+            {% if finished != true %}
+            <h1>This Page Is Still Under Construction</h1>
+            <a href="{{ site.url }}">Back To Homepage</a>
+            <br>
+            {% endif %}
             {{ content }}
             </div>
           </div>
@@ -33,5 +38,6 @@
       </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  {% include footer.html %}
   </body>
 </html>
