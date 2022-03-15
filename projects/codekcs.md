@@ -6,7 +6,7 @@ projectname: CodeKCS
 projectdate: October 2017 - May 2018
 projectdescription: <p>Taught coding classes at my high school as part of my Senior Project, and continued to design coding curriculum afterward. Taught four weeks of coding classes (six classes total) to the Sophomore engineering class, which gave me just enough time to introduce the students to the joys of creative programming.</p>
 projectlinks: <a href="https://codekcs.me/">CodeKCS Website</a><br><a href="https://bit.ly/35DD9pu">KCS Code Zine</a><br><a href="http://seniorprojects.sophiaisfabulous.com/seniorproject.html">Senior Projects Website</a><br><a href="https://thegiraffe.github.io/seniorprojectjournal/">Senior Project Journal</a>
-projecttags: Blender
+projecttags: HTML/CSS, JS, jQuery, Github Student Developer Pack, Scratch, RobotC
 bannerimagesrc: img/CodeKCS_Banner.png
 bannerimagealttext: Photo Banner of CodeKCS web design, graphic design, stickers, and zines.
 ---
@@ -14,21 +14,7 @@ bannerimagealttext: Photo Banner of CodeKCS web design, graphic design, stickers
 <br>Video was filmed, edited, and produced by Christine Davis for Akaku Project YBeam in 2018</center>
 ## Overview
 
-I taught coding classes at my high school as part of my Senior Project, and then
-continued to design coding curriculum afterward. This project involved teaching four
-weeks of coding classes (six classes total) to the Sophomore engineering class. Outside
-of the class, I tried to increase code literacy at my school by creating a KCS Code Club,
-as well as designing and distributing a "KCS Code Zine" publication that focused on
-Creative Programming. I designed and printed lots of qr code stickers linking to the
-CodeKCS website and put them in the front office for people to take and scan. I also
-designed fliers to advertise the Code Club, and built and designed the CodeKCS website
-from scratch with HTML/CSS/JS to showcase learning resources.
-
-- What it is
-- What it does
-- Why it was Made
-- Why I am proud of it / included it in the portfolio
-- Important Links (to demos, etc. if applicable and if the sample is not able to be embedded)
+I taught coding classes at my high school as part of my Senior Project, and then continued to design coding curriculum afterward. This project involved teaching four weeks of coding classes (six classes total) to the Sophomore engineering class. Outside of the class, I tried to increase code literacy at my school by creating a KCS Code Club, as well as designing and distributing a "KCS Code Zine" publication that focused on Creative Programming. I designed and printed lots of qr code stickers linking to the CodeKCS website and put them in the front office for people to take and scan. I also designed fliers to advertise the Code Club, and built and designed the CodeKCS website from scratch with HTML/CSS/JS to showcase learning resources.
 
 <center>
 <iframe id="issue01" width="720" height="480" src="//e.issuu.com/embed.html#34233579/63762773" allowfullscreen="" frameborder="0"></iframe>
@@ -43,12 +29,6 @@ from scratch with HTML/CSS/JS to showcase learning resources.
 </p>
 
 ## Design Process
-
-- Describe the process of designing this project
-- Images of important design elements
-- Descriptions and justifications for important design decisions
-- Include sketches, previous drafts, all design documentation
-- Show everything leading up to the final design, talk about all the hard work that went into the final product
 
 <p align="center">
 <img width="75%" src = "img/codekcs/homepage.png" alt="First Concept Sketch from Brainstorming">
@@ -84,21 +64,6 @@ from scratch with HTML/CSS/JS to showcase learning resources.
 <img width="28%" src = "img/codekcs/sticker2.jpg" alt="First Concept Sketch from Brainstorming">
 </p>
 
-
-## The Future
-
-- Talk about any future plans or improvements that you would make on the final product, or...
-- Alternatively, talk about how the skills learned from this work will help you in your future career.
-- Maybe show personal growth & improvement here.
-
 <p align="center">
 <img width="30%" src = "img/codekcs/image1.jpeg" alt="First Concept Sketch from Brainstorming">
 </p>
-
-## Skills and Software Used
-
-- List the skills and software used for this project
-
-## Additional Links and Resources
-
-- List additional links, bibliography, etc

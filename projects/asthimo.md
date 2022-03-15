@@ -6,7 +6,7 @@ projectname: Asthimo
 projectdate: April 2020
 projectdescription: <p>Designing medical devices that are friendlier, less threatening, and overall provide a better user experience - particularly for children, who may feel quite scared after being diagnosed with asthma. Friendlier, more eye-catching designs for medical products may also help reduce medical non-adherence, particularly for daily preventative treatments.</p>
 projectlinks: <a href="https://youtube.com/playlist?list=PLAYGH3nnwc5dWo3RYBiD1Ln1ASDCtphhR">All Asthimo Video Renders</a>
-projecttags: Blender
+projecttags: Solidworks, Solidworks Visualiser, Microsoft Azure VM GPU
 bannerimagesrc: img/asthimo/Asthimo_Banner.png
 bannerimagealttext: Photo Banner of Asthimo, the friendly robot inhaler
 ---
@@ -15,22 +15,13 @@ bannerimagealttext: Photo Banner of Asthimo, the friendly robot inhaler
 
 ## Overview
 
-This was a group project for university, the Biomedical Engineering Skills 2 (ENG 2012) asthma inhaler project. My group designed Asthimo, a customizable and kid-friendly, robot-shaped inhaler for children aged 6-12.
-
-- Why I am proud of it / included it in the portfolio
-- Important Links (to demos, etc. if applicable and if the sample is not able to be embedded)
+Asthimo was a group project for Biomedical Engineering Skills 2 (ENG 2012), where we were tasked with designing an asthma inhaler for children. Asthimo is a friendly, robot-shaped, customizable inhaler that includes an inhaler spacer in his backpack. Spacers have been shown to improve the effectiveness of inhalers for children, who sometimes struggle with the dual task of pressing down on the inhaler and inhaling at the correct time, because the spacer is able to contain the medicine longer to allow the child to inhale it. Spacers can be important for developing the habit of medical adherence. One of the main reasons for why we designed Asthimo to be cute, colourful, modular, and customizable with many different outfits, is to make the inhaler fun and eye-catching for children aged 6-12, and thus help reduce medical non-adherance for children who regularly need to utilize their non-emergency inhaler for preventative reasons.
 
 <p align="center">
 <img width="40%" src = "img/asthimo/DesignBoard.png">
 </p>
 
 ## Design Process
-
-- Describe the process of designing this project
-- Images of important design elements
-- Descriptions and justifications for important design decisions
-- Include sketches, previous drafts, all design documentation
-- Show everything leading up to the final design, talk about all the hard work that went into the final product
 
 <p align="center">
 <img width="40%" src = "img/asthimo/ConceptSketches/concepts_pt1_2.jpg" alt="First Concept Sketch from Brainstorming">
@@ -85,17 +76,3 @@ This was a group project for university, the Biomedical Engineering Skills 2 (EN
 <p align="center">
 <img width="50%" src = "img/asthimo/Pics/Crossection.png">
 </p>
-
-## The Future
-
-- Talk about any future plans or improvements that you would make on the final product, or...
-- Alternatively, talk about how the skills learned from this work will help you in your future career.
-- Maybe show personal growth & improvement here.
-
-## Skills and Software Used
-
-- List the skills and software used for this project
-
-## Additional Links and Resources
-
-- List additional links, bibliography, etc

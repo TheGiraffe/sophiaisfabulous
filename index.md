@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Homepage
+title: Sophia Davis
 iconsource: css/icon.png
 ---
 # <span class="darkpink_highlight">Hello, World! I am Sophia. :)</span>
