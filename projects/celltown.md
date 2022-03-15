@@ -5,7 +5,7 @@ iconsource: ../css/icon.png
 projectname: Cell Town
 projectdate: August 2015 (original)<br>Revisited in 2022
 projectdescription: <p>Designed and built a “Cell Town” in Sketchup, then made a video of it, for a Cell Analogy project in my sophomore year of highschool. Revisting the project now as an adult studying biomedical engineering, with the question of how digital tools and analogies can be used to help teach complicated topics such as biology. </p>
-projectlinks: <a href="#">Visit Cell Town Virtual World</a><br><a href="https://youtu.be/B3gHXCdYnr0">How A Cell Is Like A Town Video</a><br><a href="http://seniorprojects.sophiaisfabulous.com/worksamples/worksample4.html">Sophomore Year Work Sample Writeup</a>
+projectlinks: <a href="https://github.com/TheGiraffe/VisitCellTownV1.0">Visit Cell Town Virtual World</a><br><a href="https://youtu.be/B3gHXCdYnr0">How A Cell Is Like A Town Video</a><br><a href="http://seniorprojects.sophiaisfabulous.com/worksamples/worksample4.html">Sophomore Year Work Sample Writeup</a>
 projecttags: Google Sketchup, Blender, Unity, Mona
 bannerimagesrc: img/CellTown_Banner.png
 bannerimagealttext: Photo Banner of CellTown, virtual world project
