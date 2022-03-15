@@ -18,9 +18,8 @@ finished: true
   - Try to land a bioinformatics internship, or other hands-on learning experience.
   - Try to write a couple pieces of technical writing before school starts.
   - Find a mentor with experience in large-scale, open-source software development projects.
-:+1:
----
 
+---
 ## Current Interests
 ---
 ##### Ideas
