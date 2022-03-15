@@ -63,7 +63,8 @@ main{
 #project_sidebar{
   background-color: #434343ff;
   color: white;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
+  overflow-y: scroll;
   padding: 2.5em;
   height: 94vh;
 }
