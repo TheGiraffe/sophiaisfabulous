@@ -22,13 +22,14 @@
           <div class="col-md-6" id="project_content">
             <div class="p-2">
             <h1>{{ page.title }}</h1>
-            <h3>{{ page.subtitle }}</h3>
+            <h4>{{ page.subtitle }}</h4>
             <hr>
             {% if page.finished != true %}
             <h1>This Page Is Still Under Construction</h1>
             <a href="{{ site.url }}">Back To Homepage</a>
             <br>
             {% endif %}
+
             {{ content }}
             </div>
           </div>
