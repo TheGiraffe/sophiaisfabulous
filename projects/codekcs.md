@@ -64,6 +64,12 @@ I taught coding classes at my high school as part of my Senior Project, and then
 <img width="28%" src = "img/codekcs/sticker2.jpg" alt="First Concept Sketch from Brainstorming">
 </p>
 
-<p align="center">
-<img width="30%" src = "img/codekcs/image1.jpeg" alt="First Concept Sketch from Brainstorming">
+## Senior Project Presentation
+<center>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRA2lZ0kKr4xIT_uqTEv22qdB0bRy6mKw8v52dGoHyfTdXS7WjlQS8_fQj1RUE9I4eOaIiAHum-6qUB/embed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</center>
+
+<p align = "center">
+<img width="20%" src = "img/codekcs/image1.jpeg" alt="Presenting Senior Project">
 </p>
+<p align="center">Presenting my Senior Project in 2018</p>
