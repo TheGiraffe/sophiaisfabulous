@@ -1,0 +1,17 @@
+- name: Asthimo
+  image: img/asthimo/Pics/Rocket_Robot_cropped.jpg
+  pagename: asthimo
+  description: Designing medical devices that are friendlier, less threatening, and overall provide a better user experience - particularly for children, who may feel quite scared after being diagnosed with asthma. Friendlier, more eye-catching designs for medical products may also help reduce medical non-adherence, particularly for daily preventative treatments.
+  tags: ...
+
+- name: Cell Town
+  image: img/celltown/galleryimg.png
+  pagename: celltown
+  description: Designed and built a “Cell Town” in Sketchup, then made a video of it, for a Cell Analogy project in my sophomore year of highschool. Revisting the project now as an adult studying biomedical engineering, with the question of how digital tools and analogies can be used to help teach complicated topics such as biology.
+  tags: ...
+
+- name: CodeKCS
+  image: img/codekcs/codekcs.png
+  pagename: codekcs
+  description: Taught coding classes at my high school as part of my Senior Project, and continued to design coding curriculum afterward. Taught four weeks of coding classes (six classes total) to the Sophomore engineering class, which gave me just enough time to introduce the students to the joys of creative programming.
+  tags: ...

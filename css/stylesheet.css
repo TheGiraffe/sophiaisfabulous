@@ -104,6 +104,69 @@ main{
   height: 94vh;
   overflow-y: scroll;
 }
+#project_page_content{
+  background-color: white;
+  height: 94vh;
+  overflow-y: scroll;
+  padding:0.2vw;
+}
+.galleryitem{
+  display:block;
+  position: relative;
+  float: left;
+  background-color:white;
+  padding: 0;
+  border: 0.2rem solid white;
+  width: 25%;
+  overflow: auto;
+}
+.galleryitemdetails{
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index:1;
+  padding: 1rem;
+  background-color: rgba(219, 248, 243, 0.5);
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.galleryitemdetail_inner{
+  position: absolute;
+  font-size: 0.75vw;
+  top: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  left: 0;
+  width: 90%;
+  transform: translateY(-50%);
+}
+.galleryitemname{
+  font-size: 2vh;
+  text-transform: uppercase;
+  color: white;
+  background-color: #434343ff;
+  padding: 0.6vw;
+  font-weight: 700;
+}
+.galleryitemlink button{
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #fcd7f1;
+  border: none;
+  padding: 0.2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 0.75vw;
+  border-radius: 0.5rem;
+  margin: 1vh;
+}
+.galleryitemlink :hover{
+  background-color: #cfeee9ff;
+}
+
 #default_page{
   background-size: cover;
 }

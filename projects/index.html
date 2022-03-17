@@ -13,7 +13,7 @@ iconsource: ../css/icon.png
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="{{ site.url }}//css/stylesheet.css" rel="stylesheet">
     <link rel="shortcut icon" href="../favicon.png">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>{{ page.title }} | Sophia Davis</title>
   </head>
   <body>
@@ -32,22 +32,23 @@ iconsource: ../css/icon.png
           <p>
           If you like a project, feel free to Share it online! If you really like the project, feel free to buy me a coffee!
           </p>
+          <br>
+          <p>
+          <i>Search, Tag filters, and other sorting features coming soon!</i>
+          </p>
           <p>&copy; 2022 Sophia Davis</p>
           </div>
           <div class="col-md-10" id="project_page_content">
-            <br>
-            <h2>Projects List:</h2>
-            <a href="{{ site.url }}/projects/asthimo">Asthimo</a>
-            <br>
-            <a href="{{ site.url }}/projects/celltown">Cell Town</a>
-            <br>
-            <a href="{{ site.url }}/projects/codekcs">CodeKCS</a>
+              {% for project in site.data.projects %}
+                  {% include galleryitem.html %}
+              {% endfor %}
           </div>
           <div class="col-md-1">
           </div>
         </div>
       </div>
     </main>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
