@@ -15,3 +15,9 @@
   pagename: codekcs
   description: Taught coding classes at my high school as part of my Senior Project, and continued to design coding curriculum afterward. Taught four weeks of coding classes (six classes total) to the Sophomore engineering class, which gave me just enough time to introduce the students to the joys of creative programming.
   tags: ...
+
+- name: What is Biomedical Engineering?
+  image: img/bmeoutreach/bmeoutreach.png
+  pagename: bmeoutreach
+  description: ...
+  tags: ...

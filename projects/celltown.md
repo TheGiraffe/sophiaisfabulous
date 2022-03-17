@@ -87,6 +87,10 @@ If you would like to read some of my original thoughts and insights from this pr
 </p>
 
 ### Unity, Virtual Worlds, and the Monaverse
+<center>
+<iframe width="720" height="480" src="https://www.youtube.com/embed/5VABailxDvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
 <p align="center">
 <img width="45%" src = "img/celltown/celltown_sophia_2.png" alt="">
 <img width="45%" src = "img/celltown/celltown_sophia.png" alt="">
