@@ -17,7 +17,7 @@
     $(".galleryitemdetails").hide();
 
     $("#{{ project.pagename }}container").hover(
-      function(){$("#{{ project.pagename }}details").show();},
-      function(){$("#{{ project.pagename }}details").hide();});
+      function(){$("#{{ project.pagename }}details").fadeIn(300);},
+      function(){$("#{{ project.pagename }}details").fadeOut(300);});
 
   </script>

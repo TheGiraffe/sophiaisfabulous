@@ -165,6 +165,7 @@ main{
 }
 .galleryitemlink :hover{
   background-color: #cfeee9ff;
+  transition-duration: 1s;
 }
 
 #default_page{
