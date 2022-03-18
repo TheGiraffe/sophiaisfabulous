@@ -105,20 +105,22 @@ main{
   overflow-y: scroll;
 }
 #project_page_content{
+  min-height: 94vh;
+  max-height: 94vh;
   background-color: white;
-  height: 94vh;
+  overflow-x: hidden;
   overflow-y: scroll;
   padding:0.2vw;
 }
+.grid-sizer,
 .galleryitem{
+  width: 25%;
   display:block;
   position: relative;
   float: left;
   background-color:white;
   padding: 0;
   border: 0.2rem solid white;
-  width: 25%;
-  overflow: auto;
 }
 .galleryitemdetails{
   position: absolute;
