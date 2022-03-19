@@ -1,7 +1,6 @@
 ---
 layout: project
 title: Test Driving Bionica
-iconsource: ../css/icon.png
 projectname: Test Driving Bionica
 projectdate:
 projectdescription: <p></p>

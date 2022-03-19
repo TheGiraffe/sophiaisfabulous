@@ -2,7 +2,6 @@
 layout: default
 title: Current Goals and Interests 2022
 subtitle: Check in often to see what I'm up to throughout the year.
-iconsource: css/icon.png
 bgfile: css/bg.png
 finished: true
 ---
