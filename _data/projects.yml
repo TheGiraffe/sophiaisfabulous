@@ -22,15 +22,27 @@
   description: Page Still Under Construction
   tags: ...
 
-- name: Room Automation
-  image: img/roomautomation/room_automation.png
-  pagename: roomautomation
-  description: Page Still Under Construction. Related to Sophia's Childhood Bedroom project.
+- name: Mauipedia
+  image: img/mauipedia/Mauipedia.png
+  pagename: mauipedia
+  description: Page Still Under Construction
+  tags: ...
+
+- name: Pillbox
+  image: img/pillbox/pillbox_slide.png
+  pagename: pillbox
+  description: Page Still Under Construction
   tags: ...
 
 - name: Design Darling
-  image: img/designdarling/designdarling_gallery.png
+  image: img/designdarling/word_logo.png
   pagename: designdarling
+  description: Page Still Under Construction
+  tags: ...
+
+- name: Test Driving Bionica
+  image: img/bionica/bionica_gallery_2.png
+  pagename: bionica
   description: Page Still Under Construction
   tags: ...
 
@@ -40,21 +52,15 @@
   description: Page Still Under Construction. Related to Room Automation Project.
   tags: ...
 
-- name: Pillbox
-  image: img/pillbox/pillbox_gallery.png
-  pagename: pillbox
-  description: Page Still Under Construction
+- name: Room Automation
+  image: img/roomautomation/room_automation.png
+  pagename: roomautomation
+  description: Page Still Under Construction. Related to Sophia's Childhood Bedroom project.
   tags: ...
 
 - name: Freshman Robot Project
   image: img/freshmanrobotproject/freshman_robot_project.png
   pagename: freshmanrobotproject
-  description: Page Still Under Construction
-  tags: ...
-
-- name: Test Driving Bionica
-  image: img/bionica/bionica_gallery.png
-  pagename: bionica
   description: Page Still Under Construction
   tags: ...
 
