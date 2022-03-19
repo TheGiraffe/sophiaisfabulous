@@ -10,7 +10,7 @@ finished: true
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <br>
-      <b>{{ post.date }}</b>
+      <b>{{ post.date | date: "%-d %B %Y"}}</b>
       {{ post.excerpt }}
     </li>
   {% endfor %}
