@@ -1,0 +1,18 @@
+---
+layout: default
+title: News & Media Links
+bgfile: ../css/bg.png
+finished: true
+---
+<ul>
+{% for newslink in site.data.newslinks %}
+  <li>
+    <h4><a href="{{ newslink.link }}" style="color:#ff73d4"> {{ newslink.title }}</a></h4>
+    <ul>
+      <li><b>{{ newslink.source }}</b></li>
+      <li>{{ newslink.date }}</li>
+    </ul>
+  </li>
+  <br>
+{% endfor %}
+</ul>
