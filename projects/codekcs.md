@@ -1,7 +1,6 @@
 ---
 layout: project
 title: CodeKCS
-iconsource: ../css/icon.png
 projectname: CodeKCS
 projectdate: October 2017 - May 2018
 projectdescription: <p>Taught coding classes at my high school as part of my Senior Project, and continued to design coding curriculum afterward. Taught four weeks of coding classes (six classes total) to the Sophomore engineering class, which gave me just enough time to introduce the students to the joys of creative programming.</p>

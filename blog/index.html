@@ -1,0 +1,17 @@
+---
+layout: default
+title: Blog
+bgfile: ../css/bg.png
+finished: true
+---
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <br>
+      <b>{{ post.date }}</b>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>

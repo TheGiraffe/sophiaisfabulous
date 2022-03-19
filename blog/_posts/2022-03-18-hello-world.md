@@ -1,8 +1,7 @@
---- 
-layout: post 
+---
+layout: post
 title: "Hello, World!"
---- 
-# Hello, World!
+---
 
 This is my first blog post. I am writing it from my phone, while on the DC metro.
 

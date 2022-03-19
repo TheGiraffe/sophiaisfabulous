@@ -1,7 +1,6 @@
 ---
 layout: project
 title: Cell Town
-iconsource: ../css/icon.png
 projectname: Cell Town
 projectdate: August 2015 (original)<br>Revisited in 2022
 projectdescription: <p>Designed and built a “Cell Town” in Sketchup, then made a video of it, for a Cell Analogy project in my sophomore year of highschool. Revisting the project now as an adult studying biomedical engineering, with the question of how digital tools and analogies can be used to help teach complicated topics such as biology. </p>
