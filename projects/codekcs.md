@@ -33,19 +33,44 @@ I intentionally made the Scratch assignment very open-ended, for multiple reason
 You can see some of the students' Scratch projects in the <a href="https://scratch.mit.edu/studios/4791865/">CodeKCS Scratch Studio</a> (not all students chose to share their projects there, opting to send the projects via email instead). One of the neat things about many of these projects is that, knowing the students personally, I could see that a lot of the projects reflected their own interests and hobbies - from sports to pop culture and memes. I was quite excited to see and play the final programs!
 
 #### **Week 2 (Friday):** HTML + Git
-Web development has been a form of self expression for me for many years, therefore, I wanted to introduce the students to building things for the web. I figured that there were also practical applications of this in their person lives - such as being able to customize their Tumblr blogs or build their own personal websites. I knew from the get-go that there would be a lot of content that I wouldn't be able to go over, since this is such a broad topic for such a short timeline. However, I still wanted the students to be able to deploy something to the internet.
+Web development has been a form of self expression for me for many years, therefore, I wanted to introduce the students to building things for the web. I figured that there were also practical applications of this in their person lives - such as being able to customize their Tumblr blogs or build their own personal websites. I knew from the get-go that there would be a lot of content that I wouldn't be able to go over, since this is such a broad topic for such a short timeline. However, I still wanted the students to be able to deploy some sort of static site to the internet via Github Pages.
+
+Figuring out a way to teach web development without being allowed to install anything on the school computers was an interesting challenge. I opted to use a service called Code Anywhere, which is an online code editor, IDE, and included its own terminal that could be used with git. I had the students use their school accounts to sign up for Code Anywhere, and I encouraged them to use their school accounts to claim the Github Student Developer Pack, which is an invaluable resource for students interested in learning web development and design.
+
+A good part of the class time in Week 2 was dedicated not just to explaining how HTML (HyperText Markup Language) web pages work and are served, it was also dedicated to setting up github repositories and teaching some basic git commands so that the students had these valuable tools in their toolbelt. I taught the students how to hide their email from command line pushes as well, since I consider this to be an important privacy feature. Overall, this week involved lots of setup, creating accounts on various services using their school email accounts, and connecting and configuring Code Anywhere with their newly created Github accounts, etc. By the end of each class period, we were able to create a basic index.html page for each students' github pages website - published at *<student's_username>.github.io*.
 
 #### **Week 3 (Friday):** HTML/CSS + Git
+During Week 3, we continued working on the students' github pages websites. The websites were originally supposed to be portfolio websites that featured some of their work from the class as well as other classes, however, the timeframe was a little too short to teach the students how to make a full-fledged website with navigation, multiple pages, and other features. I really wanted to introduce the students to Javascript as well, however, I decided that I would rather have a slower pace, with me walking around helping the students with any HTML, CSS, or Git issues, than overwhelming them by throwing in the Javascript - since we only had one class period at this point. However, a few students were able to integrate some Javascript into their websites, and I was happy to help them with that one-on-one. Therefore, the overall focus this week was teaching some basic html elements - headings, paragraphs, images, and buttons, and then teaching them how to connect those elements to a stylesheet for nicer formatting. The students were able to personalize their github pages websites, and I was quite pleased with the results because, although this was a very basic introduction to web development, I found that the students were still able to be creative with it and have fun - adding lots of images, text, buttons, colours, and other formatting that expressed their interests, humour, and personal style. Overall, I am glad that I kept the content simple, because I think it allowed the students to have more fun rather than feeling overwhelmed. Thus is the entire point of creative programming.
+
+<center>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRhbPIH9XZFgd2oe_Ix5EUgCBb_vel9u5IO3AVjX2OEARfBTCPnTbjirzWuRXJV0aZFlVRs81J5e8s8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<br>
+<i>Web Development slides used for Weeks 2 and 3.</i>
+</center>
 
 #### **Week 4 (Monday, Wednesday, Friday):** RobotC
 
 The final week's focus was mainly RobotC, to help prepare the students for their next unit in the engineering class, which was VEX robotics. RobotC is a C-based language that uses a block-based environment similar to Scratch, and we were able to utilize the VEX "virtual robot" environment to test out the students' programs - the students were able to control a robot in a virtual world using their code. They were able to make the virtual robot move around, maneuver around virtual obstacle courses, and even get the robot arms to move up and down. We also were able to load some programs onto one of the real-world example robots in the engineering lab. On Friday, the students were allowed to choose between playing with Scratch, HTML/CSS, or RobotC.
 
-## Web Design & Development Process
+<p align="center">
+<img width="40%" src = "img/codekcs/robotc.png" alt="RobotC Virtual Robot demonstration in class">
+<br>
+<i>RobotC Virtual Robot demonstration in class. In addition to playing with the virtual robot environment on the school computers, students could send me their RobotC code and I would play it on the TV screen for the rest of the class to see. </i>
+</p>
+
+## Website Design & Development Process
+An important part of this project, in addition to the curriculum, was designing and developing the CodeKCS website. The website not only provides information about the project, but it includes more resources for learning about programming, resources that I made for the program, and PDF versions of all of my curriculum - as well as some of my previous curriculum ideas that I would like to see applied in the real world, but didn't have an appropriate timeline for given the short duration of the class.
+
 <p align="center">
 <img width="75%" src = "img/codekcs/homepage.png" alt="CodeKCS Homepage">
 <br>
 <i>CodeKCS Homepage</i>
+</p>
+
+<p align="center">
+<img width="50%" src = "img/codekcs/codekcswebsite.gif" alt="CodeKCS Website">
+<br>
+<i>GIF animation of CodeKCS Website</i>
 </p>
 
 <p align="center">
@@ -124,7 +149,7 @@ Although I managed to 3D print enough kits and cut enough wires for the beads, I
 
 ## Senior Project Presentation
 <center>
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRA2lZ0kKr4xIT_uqTEv22qdB0bRy6mKw8v52dGoHyfTdXS7WjlQS8_fQj1RUE9I4eOaIiAHum-6qUB/embed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRA2lZ0kKr4xIT_uqTEv22qdB0bRy6mKw8v52dGoHyfTdXS7WjlQS8_fQj1RUE9I4eOaIiAHum-6qUB/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </center>
 
 <p align = "center">
