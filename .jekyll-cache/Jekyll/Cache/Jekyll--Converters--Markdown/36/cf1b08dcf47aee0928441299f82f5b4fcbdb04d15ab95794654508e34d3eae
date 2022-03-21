@@ -1,0 +1,129 @@
+I"�$<center><iframe width="560" height="315" src="https://www.youtube.com/embed/p5lorCKeFW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<br />Video was filmed, edited, and produced by Christine Davis for Akaku Project YBeam in 2018</center>
+<h2 id="overview">Overview</h2>
+
+<p>I taught coding classes at my high school as part of my Senior Project, and then continued to design coding curriculum afterward. This project involved teaching four weeks of coding classes (six classes total) to the Sophomore engineering class. Outside of the class, I tried to increase code literacy at my school by creating a KCS Code Club, as well as designing and distributing a “KCS Code Zine” publication that focused on Creative Programming. I designed and printed lots of qr code stickers linking to the CodeKCS website and put them in the front office for people to take and scan. I also designed fliers to advertise the Code Club, and built and designed the CodeKCS website from scratch with HTML/CSS/JS to showcase learning resources.</p>
+
+<h2 id="teaching-class-curriculum">Teaching: Class Curriculum</h2>
+<p>I taught three class periods a day every Friday for three weeks. For the fourth week, I taught three class periods a day on Monday, Wednesday, and Friday. Each class period had about 20 students, so I taught about 60 students total.</p>
+
+<h4 id="week-1-friday-scratch"><strong>Week 1 (Friday):</strong> Scratch</h4>
+
+<p>Week 1 was meant to introduce students to programming through Scratch, the block-based programming environment created by MIT. I made the Scratch assignment very open-ended:</p>
+
+<blockquote>
+  <p>Create a program that interacts with the user and has at least:</p>
+</blockquote>
+
+<blockquote>
+  <p>1 loop
+(Such as a “Repeat”, “Forever”, “If Then”, etc. Just some line of code that happens more than once, or happens conditionally.)
+2 or more Sprites - or at least one sprite that’s different from the default cat.
+1 “Event” other than the Green Flag
+1 costume or backdrop change
+(Such as making your cat run, animating a character so that it dances, making the scene change from a white screen to a beach, or even just making your cat wear a nice tiara when the spacebar is clicked.)
+Some sort of ‘sensing’ that allows the user to interact with the program
+(This doesn’t necessarily have to be from the “Sensing” category. It could be as simple as making the sprite move when a spacebar is pressed, or making something follow the mouse around the screen.)</p>
+</blockquote>
+
+<p>You can see the students’ Scratch projects in the <a href="https://scratch.mit.edu/studios/4791865/">CodeKCS Scratch Studio</a>.</p>
+
+<h4 id="week-2-friday-html--git"><strong>Week 2 (Friday):</strong> HTML + Git</h4>
+
+<h4 id="week-3-friday-htmlcss--git"><strong>Week 3 (Friday):</strong> HTML/CSS + Git</h4>
+
+<h4 id="week-4-monday-wednesday-friday-robotc"><strong>Week 4 (Monday, Wednesday, Friday):</strong> RobotC</h4>
+
+<p>The final week’s focus was mainly RobotC, to help prepare the students for their next unit in the engineering class, which was VEX robotics. RobotC is a C-based language that uses a block-based environment similar to Scratch, and we were able to utilize the VEX “virtual robot” environment to test out the students’ programs - the students were able to control a robot in a virtual world using their code. They were able to make the virtual robot move around, maneuver around virtual obstacle courses, and even get the robot arms to move up and down. We also were able to load some programs onto one of the real-world example robots in the engineering lab. On Friday, the students were allowed to choose between playing with Scratch, HTML/CSS, or RobotC.</p>
+
+<h2 id="web-design--development-process">Web Design &amp; Development Process</h2>
+<p align="center">
+<img width="75%" src="img/codekcs/homepage.png" alt="CodeKCS Homepage" />
+<br />
+<i>CodeKCS Homepage</i>
+</p>
+
+<p align="center">
+<img width="75%" src="img/codekcs/kcscodezine.png" alt="KCS Code Zine landing page" />
+<br />
+<i>KCS Code Zine landing page</i>
+</p>
+
+<p align="center">
+<img width="75%" src="img/codekcs/lessons.png" alt="Lessons page, before deciding to go in a different direction with the course setup." />
+<br />
+<i>Lessons page, before deciding to go in a different direction with the course setup.</i>
+</p>
+
+<p align="center">
+<img width="75%" src="img/codekcs/journey.png" alt="Journey page design in SketchApp, before deciding to go in a different direction." />
+<br />
+<i>Journey page design in SketchApp, before deciding to go in a different direction.</i>
+</p>
+
+<p align="center">
+<img width="50%" src="img/codekcs/lessonsassets.png" alt="Lessons page assets, designed in SketchApp." />
+<br />
+<i>Lessons page assets, designed in SketchApp (aka Sketch).</i>
+</p>
+
+<h2 id="kcs-code-zine">KCS Code Zine</h2>
+<p align="center">
+<img width="50%" src="img/codekcs/codezine1.png" alt="Printed copies of the KCS Code Zine." />
+<br />
+<i>Printed copies of the KCS Code Zine, with 3D printed zine holder.</i>
+</p>
+
+<center>
+<iframe id="issue01" width="720" height="480" src="//e.issuu.com/embed.html#34233579/63762773" allowfullscreen="" frameborder="0"></iframe>
+<br />
+Read the KCS Code Zine on Issuu!
+</center>
+<p><br /></p>
+
+<h4 id="binary-abacus">Binary Abacus</h4>
+<p>The original plan was to give away an 8-bit “binary abacus” as a freebie within the KCS Code Zine - it would have been in a separate envelope attached to the back of the zine, as a 3D-printed kit, with its own separate instruction sheet and a binary code alphabet table. The idea was that the abacus doubled as both a fidget toy and a way of better understanding how binary works - the students could use the abacus to code for single letters of the alphabet by setting each column to 0 or 1 (down or up, off or on).</p>
+
+<p align="center">
+<img width="50%" src="img/codekcs/abacus.jpg" alt="Photo of completed binary abacus" />
+<br />
+<i>Completed binary abacus kit.</i>
+</p>
+
+<p>Although I managed to 3D print enough kits and cut enough wires for the beads, I never ended up including the binary abacus in the final Code Zines. This is partly because I spent too much time trying to iterate on and refine the model (such as trying to include 3D-printed poles for the beads instead), and I ended up deciding that, time-wise, it would be better just to print and publish the zines as-is. I didn’t want to include the kit without well-written instructions, explanations, and learning objectives - so I just decided to omit it from the publication.</p>
+
+<center>
+<i>Feel free to orbit/zoom around the Binary Abacus model here:</i>
+
+<div class="sketchfab-embed-wrapper"> <iframe title="binaryabacus" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="" execution-while-out-of-viewport="" execution-while-not-rendered="" web-share="" width="720" height="480" src="https://sketchfab.com/models/786d736700a04612b8ce9ebf31d4e038/embed?autostart=1&amp;camera=0"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/binaryabacus-786d736700a04612b8ce9ebf31d4e038?utm_medium=embed&amp;utm_campaign=share-popup&amp;utm_content=786d736700a04612b8ce9ebf31d4e038" target="_blank" style="font-weight: bold; color: #1CAAD9;"> binaryabacus </a> by <a href="https://sketchfab.com/thegiraffe?utm_medium=embed&amp;utm_campaign=share-popup&amp;utm_content=786d736700a04612b8ce9ebf31d4e038" target="_blank" style="font-weight: bold; color: #1CAAD9;"> TheGiraffe </a> on <a href="https://sketchfab.com?utm_medium=embed&amp;utm_campaign=share-popup&amp;utm_content=786d736700a04612b8ce9ebf31d4e038" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+</center>
+
+<h2 id="stickers--code-club-flier">Stickers &amp; Code Club Flier</h2>
+<p align="center">
+<img width="50%" src="img/codekcs/poster.png" alt="KCS code club flier" />
+</p>
+
+<p align="center">
+<img width="9%" src="img/codekcs/html.png" alt="HTML Sticker" />
+<img width="9%" src="img/codekcs/css.png" alt="CSS Sticker" />
+<img width="9%" src="img/codekcs/js.png" alt="JS Sticker" />
+<img width="9%" src="img/codekcs/jquery.png" alt="jQuery Sticker" />
+<img width="9%" src="img/codekcs/codekcs.png" alt="CodeKCS Sticker 1" />
+<img width="9%" src="img/codekcs/codekcs_design_qr.png" alt="CodeKCS QR code sticker" />
+</p>
+
+<p align="center">
+<img width="28%" src="img/codekcs/sticker1.jpg" alt="QR code sticker on laptop, many years later." />
+<img width="28%" src="img/codekcs/sticker2.jpg" alt="CodeKCS sticker on laptop, many years later." />
+</p>
+
+<h2 id="senior-project-presentation">Senior Project Presentation</h2>
+<center>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRA2lZ0kKr4xIT_uqTEv22qdB0bRy6mKw8v52dGoHyfTdXS7WjlQS8_fQj1RUE9I4eOaIiAHum-6qUB/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="800" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</center>
+
+<p align="center">
+<img width="20%" src="img/codekcs/image1.jpeg" alt="Presenting Senior Project" />
+</p>
+<p align="center">Presenting my Senior Project in 2018</p>
+:ET

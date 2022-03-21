@@ -4,7 +4,7 @@ title: CodeKCS
 projectname: CodeKCS
 projectdate: October 2017 - May 2018
 projectdescription: <p>Taught coding classes at my high school as part of my Senior Project, and continued to design coding curriculum afterward. Taught four weeks of coding classes (six classes total) to the Sophomore engineering class, which gave me just enough time to introduce the students to the joys of creative programming.</p>
-projectlinks: <a href="https://codekcs.me/">CodeKCS Website</a><br><a href="https://bit.ly/35DD9pu">KCS Code Zine</a><br><a href="http://seniorprojects.sophiaisfabulous.com/seniorproject.html">Senior Projects Website</a><br><a href="https://thegiraffe.github.io/seniorprojectjournal/">Senior Project Journal</a>
+projectlinks: <a href="https://codekcs.me/">CodeKCS Website</a><br><a href="https://bit.ly/35DD9pu">KCS Code Zine</a><br><a href="https://scratch.mit.edu/studios/4791865/">Students' Scratch Projects</a><br><a href="http://seniorprojects.sophiaisfabulous.com/seniorproject.html">Senior Projects Website</a><br><a href="https://thegiraffe.github.io/seniorprojectjournal/">Senior Project Journal</a>
 projecttags: HTML/CSS, JS, jQuery, Github Student Developer Pack, Scratch, RobotC
 bannerimagesrc: img/CodeKCS_Banner.png
 bannerimagealttext: Photo Banner of CodeKCS web design, graphic design, stickers, and zines.
@@ -15,52 +15,111 @@ bannerimagealttext: Photo Banner of CodeKCS web design, graphic design, stickers
 
 I taught coding classes at my high school as part of my Senior Project, and then continued to design coding curriculum afterward. This project involved teaching four weeks of coding classes (six classes total) to the Sophomore engineering class. Outside of the class, I tried to increase code literacy at my school by creating a KCS Code Club, as well as designing and distributing a "KCS Code Zine" publication that focused on Creative Programming. I designed and printed lots of qr code stickers linking to the CodeKCS website and put them in the front office for people to take and scan. I also designed fliers to advertise the Code Club, and built and designed the CodeKCS website from scratch with HTML/CSS/JS to showcase learning resources.
 
-<center>
-<iframe id="issue01" width="720" height="480" src="//e.issuu.com/embed.html#34233579/63762773" allowfullscreen="" frameborder="0"></iframe>
-</center>
+## Teaching: Class Curriculum
+I taught three class periods a day every Friday for three weeks. For the fourth week, I taught three class periods a day on Monday, Wednesday, and Friday. Each class period had about 20 students, so I taught about 60 students total. From the beginning, I wanted to emphasize learning-by-doing and project-based learning. I also wanted to be respectful of the students' time and commitments to other classes. Although I was required to issue grades, I tried to keep a very lenient grading scale that was mainly based on in-class participation and whether they submitted their assignments. My personal belief is that it is impossible to fairly grade "creativity" and exploration of new, unfamiliar topics, therefore, all I was interested in grading was participation, or whether the students showed up (frankly, I'd argue that this is all that matters, since everyone will naturally learn and apply what they learned at a different pace). I should reiterate that the purpose of this course was not to teach "computer science" or prepare the students to study software development at the college level, rather, I wanted them to learn about Creative Programming as a possible avenue for self expression.
+
+#### **Week 1 (Friday):** Scratch
+
+Week 1 was meant to introduce students to programming through Scratch, the block-based programming environment created by MIT. Scratch is a great platform for learning the basic building blocks of programming, by allowing students to make their own games and animations. In fact, my own programming journey started with Scratch when I was about nine years old - so teaching other kids how to think programmatically via Scratch was a bit of a full-circle moment for me. This platform was also a good way of introducing Creative Programming - showing that you can use code to make something creative, fun, and as a form of self-expression, which is what I tried to encourage with that week's assignment.
+
+I intentionally made the Scratch assignment very open-ended, for multiple reasons. I wanted to encourage the students' creativity by providing as few restrictions as possible: I did not want to tell them to make a specific kind of game or animation, rather, I wanted them to make whatever they wanted. Anything that reflected their own interests or hobbies, as well as honoring their own personal time constraints - since my aim for this course was for it to be explorative and fun, rather than having rigid coursework or a long list of strict, time-consuming objectives. Especially for Week 1, the main learning objectives that I wanted the students to start to understand were just two things: 1) The concept of loops and actions that repeat themselves, and more importantly, 2) User input causing something to happen in the program - i.e. the user and the program being able to interact with each other on some level.
+<p align="center">
+<img width="40%" src = "img/codekcs/scratchassignment.png" alt="Scratch Assignment">
+<br>
+<i>Scratch Assignment</i>
+</p>
+
+
+You can see some of the students' Scratch projects in the <a href="https://scratch.mit.edu/studios/4791865/">CodeKCS Scratch Studio</a> (not all students chose to share their projects there, opting to send the projects via email instead). One of the neat things about many of these projects is that, knowing the students personally, I could see that a lot of the projects reflected their own interests and hobbies - from sports to pop culture and memes. I was quite excited to see and play the final programs!
+
+#### **Week 2 (Friday):** HTML + Git
+Web development has been a form of self expression for me for many years, therefore, I wanted to introduce the students to building things for the web. I figured that there were also practical applications of this in their person lives - such as being able to customize their Tumblr blogs or build their own personal websites. I knew from the get-go that there would be a lot of content that I wouldn't be able to go over, since this is such a broad topic for such a short timeline. However, I still wanted the students to be able to deploy something to the internet.
+
+#### **Week 3 (Friday):** HTML/CSS + Git
+
+#### **Week 4 (Monday, Wednesday, Friday):** RobotC
+
+The final week's focus was mainly RobotC, to help prepare the students for their next unit in the engineering class, which was VEX robotics. RobotC is a C-based language that uses a block-based environment similar to Scratch, and we were able to utilize the VEX "virtual robot" environment to test out the students' programs - the students were able to control a robot in a virtual world using their code. They were able to make the virtual robot move around, maneuver around virtual obstacle courses, and even get the robot arms to move up and down. We also were able to load some programs onto one of the real-world example robots in the engineering lab. On Friday, the students were allowed to choose between playing with Scratch, HTML/CSS, or RobotC.
+
+## Web Design & Development Process
+<p align="center">
+<img width="75%" src = "img/codekcs/homepage.png" alt="CodeKCS Homepage">
+<br>
+<i>CodeKCS Homepage</i>
+</p>
+
+<p align="center">
+<img width="75%" src = "img/codekcs/kcscodezine.png" alt="KCS Code Zine landing page">
+<br>
+<i>KCS Code Zine landing page</i>
+</p>
+
+<p align="center">
+<img width="75%" src = "img/codekcs/lessons.png" alt="Lessons page, before deciding to go in a different direction with the course setup.">
+<br>
+<i>Lessons page, before deciding to go in a different direction with the course setup.</i>
+</p>
+
+<p align="center">
+<img width="75%" src = "img/codekcs/journey.png" alt="Journey page design in SketchApp, before deciding to go in a different direction.">
+<br>
+<i>Journey page design in SketchApp, before deciding to go in a different direction.</i>
+</p>
+
+<p align="center">
+<img width="50%" src = "img/codekcs/lessonsassets.png" alt="Lessons page assets, designed in SketchApp.">
+<br>
+<i>Lessons page assets, designed in SketchApp (aka Sketch).</i>
+</p>
+
+## KCS Code Zine
+<p align="center">
+<img width="50%" src = "img/codekcs/codezine1.png" alt="Printed copies of the KCS Code Zine.">
+<br>
+<i>Printed copies of the KCS Code Zine, with 3D printed zine holder.</i>
+</p>
 
 <center>
+<iframe id="issue01" width="720" height="480" src="//e.issuu.com/embed.html#34233579/63762773" allowfullscreen="" frameborder="0"></iframe>
+<br>
+Read the KCS Code Zine on Issuu!
+</center>
+<br>
+
+#### Binary Abacus
+The original plan was to give away an 8-bit "binary abacus" as a freebie within the KCS Code Zine - it would have been in a separate envelope attached to the back of the zine, as a 3D-printed kit, with its own separate instruction sheet and a binary code alphabet table. The idea was that the abacus doubled as both a fidget toy and a way of better understanding how binary works - the students could use the abacus to code for single letters of the alphabet by setting each column to 0 or 1 (down or up, off or on).
+
+<p align="center">
+<img width="50%" src = "img/codekcs/abacus.jpg" alt="Photo of completed binary abacus">
+<br>
+<i>Completed binary abacus kit.</i>
+</p>
+
+Although I managed to 3D print enough kits and cut enough wires for the beads, I never ended up including the binary abacus in the final Code Zines. This is partly because I spent too much time trying to iterate on and refine the model (such as trying to include 3D-printed poles for the beads instead), and I ended up deciding that, time-wise, it would be better just to print and publish the zines as-is. I didn't want to include the kit without well-written instructions, explanations, and learning objectives - so I just decided to omit it from the publication.
+
+<center>
+<i>Feel free to orbit/zoom around the Binary Abacus model here:</i>
+
 <div class="sketchfab-embed-wrapper"> <iframe title="binaryabacus" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="720" height="480" src="https://sketchfab.com/models/786d736700a04612b8ce9ebf31d4e038/embed?autostart=1&camera=0"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/binaryabacus-786d736700a04612b8ce9ebf31d4e038?utm_medium=embed&utm_campaign=share-popup&utm_content=786d736700a04612b8ce9ebf31d4e038" target="_blank" style="font-weight: bold; color: #1CAAD9;"> binaryabacus </a> by <a href="https://sketchfab.com/thegiraffe?utm_medium=embed&utm_campaign=share-popup&utm_content=786d736700a04612b8ce9ebf31d4e038" target="_blank" style="font-weight: bold; color: #1CAAD9;"> TheGiraffe </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=786d736700a04612b8ce9ebf31d4e038" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
 </center>
 
+## Stickers & Code Club Flier
 <p align="center">
-<img width="50%" src = "img/codekcs/abacus.jpg" alt="First Concept Sketch from Brainstorming">
-</p>
-
-## Design Process
-
-<p align="center">
-<img width="75%" src = "img/codekcs/homepage.png" alt="First Concept Sketch from Brainstorming">
+<img width="50%" src = "img/codekcs/poster.png" alt="KCS code club flier">
 </p>
 
 <p align="center">
-<img width="75%" src = "img/codekcs/kcscodezine.png" alt="First Concept Sketch from Brainstorming">
+<img width="9%" src = "img/codekcs/html.png" alt="HTML Sticker">
+<img width="9%" src = "img/codekcs/css.png" alt="CSS Sticker">
+<img width="9%" src = "img/codekcs/js.png" alt="JS Sticker">
+<img width="9%" src = "img/codekcs/jquery.png" alt="jQuery Sticker">
+<img width="9%" src = "img/codekcs/codekcs.png" alt="CodeKCS Sticker 1">
+<img width="9%" src = "img/codekcs/codekcs_design_qr.png" alt="CodeKCS QR code sticker">
 </p>
 
 <p align="center">
-<img width="75%" src = "img/codekcs/lessons.png" alt="First Concept Sketch from Brainstorming">
-</p>
-
-<p align="center">
-<img width="50%" src = "img/codekcs/lessonsassets.png" alt="First Concept Sketch from Brainstorming">
-</p>
-
-<p align="center">
-<img width="50%" src = "img/codekcs/poster.png" alt="First Concept Sketch from Brainstorming">
-</p>
-
-<p align="center">
-<img width="9%" src = "img/codekcs/html.png" alt="First Concept Sketch from Brainstorming">
-<img width="9%" src = "img/codekcs/css.png" alt="First Concept Sketch from Brainstorming">
-<img width="9%" src = "img/codekcs/js.png" alt="First Concept Sketch from Brainstorming">
-<img width="9%" src = "img/codekcs/jquery.png" alt="First Concept Sketch from Brainstorming">
-<img width="9%" src = "img/codekcs/codekcs.png" alt="First Concept Sketch from Brainstorming">
-<img width="9%" src = "img/codekcs/codekcs_design_qr.png" alt="First Concept Sketch from Brainstorming">
-</p>
-
-<p align="center">
-<img width="28%" src = "img/codekcs/sticker1.jpg" alt="First Concept Sketch from Brainstorming">
-<img width="28%" src = "img/codekcs/sticker2.jpg" alt="First Concept Sketch from Brainstorming">
+<img width="28%" src = "img/codekcs/sticker1.jpg" alt="QR code sticker on laptop, many years later.">
+<img width="28%" src = "img/codekcs/sticker2.jpg" alt="CodeKCS sticker on laptop, many years later.">
 </p>
 
 ## Senior Project Presentation
