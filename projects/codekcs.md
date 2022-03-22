@@ -225,8 +225,11 @@ Overall, this was a very positive experience that helped me know my strengths an
 I very much hope that the students I taught programming to also had a positive experience, and that the project helped open the possibility to them of applying programming as a creative medium and a form of self expression. I wish that there had been more time to introduce the students to more tools and applications - multiple students told me in their feedback that they wish we could have done some game programming. I wish that too - it would have been really cool! Some students were interested in blockchain and cryptocurrency, and I wished that we could have had the time to look into resources on programming their own blockchain.
 
 I truly believe that, for every interest or hobby, there is some sort of useful application of coding - whether it is creating a fan website, your own blockchain, a computer game, or even a useful hardware tool. I particularly believe that knowing how to program and understand code will be a crucial skill that all kids will need to know in the future. STEM education outreach remains an important part of my life, both on Maui and abroad. I believe that investing in STEM education will be especially important in diversifying Maui's economy and securing a better future for every citizen of the island and wider Maui County. I am proud to have been able to contribute to my community in this way, and hope to continue to find ways to support STEM education on Maui in the future - such as through my connections abroad and future career.
-
-## Senior Project
+<br>
+<br>
+<hr>
+<hr>
+## Appendix: Senior Project Documents
 <p align="left">
 <img width="15%" src = "img/codekcs/image1.jpeg" alt="Presenting Senior Project">
 <br>
