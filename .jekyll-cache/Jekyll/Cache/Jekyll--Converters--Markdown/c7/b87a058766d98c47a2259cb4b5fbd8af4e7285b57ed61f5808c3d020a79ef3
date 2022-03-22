@@ -1,0 +1,64 @@
+I"þ<center><iframe width="720" height="480" src="https://www.youtube.com/embed/pD3NS8fKM2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></center>
+
+<h2 id="overview">Overview</h2>
+
+<p>Asthimo was a group project for Biomedical Engineering Skills 2 (ENG 2012), where we were tasked with designing an asthma inhaler for children. Asthimo is a friendly, robot-shaped, customizable inhaler that includes an inhaler spacer in his backpack. Spacers have been shown to improve the effectiveness of inhalers for children, who sometimes struggle with the dual task of pressing down on the inhaler and inhaling at the correct time, because the spacer is able to contain the medicine longer to allow the child to inhale it. Spacers can be important for developing the habit of medical adherence. One of the main reasons for why we designed Asthimo to be cute, colourful, modular, and customizable with many different outfits, is to make the inhaler fun and eye-catching for children aged 6-12, and thus help reduce medical non-adherance for children who regularly need to utilize their non-emergency inhaler for preventative reasons.</p>
+
+<h2 id="group-roles">Group Roles</h2>
+<p>This was a group project where there was four of us: Me, Alistair, Lucia, and Gabriel. All of us took on different roles, since this project involved lots of moving pieces. One of my roles was sketching our teamâ€™s ideas during the team meetings, since I like to draw. As for the Asthimo costumes aspect, I created the Pineapple and Rocket Asthimo costumes in Solidworks.</p>
+
+<h2 id="design-process">Design Process</h2>
+<p align="center">
+<img width="40%" src="img/asthimo/ConceptSketches/concepts_pt1_2.jpg" alt="First Concept Sketch from Brainstorming" />
+</p>
+<p align="center">First Concept Sketch from Brainstorming</p>
+
+<p align="center">
+<img width="80%" src="img/asthimo/ConceptSketches/moreconceptsketches.png" alt="More Concept Sketches" />
+</p>
+<p align="center">More Concept Sketches</p>
+
+<p align="center">
+<img width="30%" src="img/asthimo/Pineapple_Asthimov_Final/Pineapple2.jpg" />
+
+<img width="30%" src="img/asthimo/Pineapple_Asthimov_Final/Pineapple3.jpg" />
+
+<img width="30%" src="img/asthimo/Rocket_Asthimov_Final/Rocket_Robot.jpg" />
+</p>
+
+<p align="center">
+<img width="40%" src="img/asthimo/Pics/Crossection.png" />
+<img width="40%" src="img/asthimo/Pineapple_Asthimov_Final/Pineapple_cropped.jpg" />
+</p>
+
+<h2 id="design-features--final-renderings">Design Features &amp; Final Renderings</h2>
+
+<p align="center">
+<img width="40%" src="img/asthimo/Pics/Asthimo1Front.JPG" />
+<img width="40%" src="img/asthimo/Pics/Asthimo1Unfolded.JPG" />
+</p>
+<p align="center">
+<img width="40%" src="img/asthimo/Pics/Asthimo2Front.JPG" />
+<img width="40%" src="img/asthimo/Pics/Asthimo2Back.JPG" />
+</p>
+<p align="center">
+<img width="40%" src="img/asthimo/Pics/AsthimoRocketFront.JPG" />
+<img width="40%" src="img/asthimo/Pics/AsthimoRocketBack.JPG" />
+</p>
+<p align="center">
+<img width="40%" src="img/asthimo/Pics/Asthimo Pineapple Front.JPG" />
+<img width="40%" src="img/asthimo/Pics/Asthimo Pineapple Side.JPG" />
+</p>
+
+<h2 id="design-board">Design Board</h2>
+<p align="center">
+<img width="40%" src="img/asthimo/DesignBoard.png" />
+</p>
+
+<h2 id="faster-solidworks-renders-and-citizen-science">Faster Solidworks Renders and Citizen Science</h2>
+<p>Partway through this project, the coronavirus pandemic and subsequent lockdowns occurred, meaning that it was now impossible to get to the engineering computer labs to render our models. We tried to use the remote desktop service, but this service started crashing under the weight of so many students trying to access it. Even prior to the pandemic shutdown, I had been experimenting with using a Microsoft Azure GPU Virtual Machine to render the Solidworks Visualiser images and animations, because the engineering computers would take hours and hours to render, often with hiccups. I would connect to the engineering school computers remotely and leave them rendering overnight; the simplest, shortest animations could still take seven hours to render fully. I found that the Azure GPU rendering was significantly faster - an animation that took 7 hours to render on the university computer was rendered within 17 minutes on the virtual machine. This phenomenal performance was because the Azure GPU VMs used a NVIDIA Tesla M60, a graphics card often used for high-performance computing. The best part was that this method was free, thanks to the $100 of Azure credit provided to students by Microsoft (through Azure for Education). After signing up with my student account and setting up the VM, all I had to do was make sure that the machine was completely stopped and powered down at the end of each session, so that I was only using as much credit as I needed.</p>
+
+<p>Then, the pandemic hit, and I found out that many of my peers in my year group were having trouble accessing the university computers in the first place. I decided to write a document detailing how to create my same setup themselves so that they could also render their Biomedical Engineering Skills projects without hiccup. I then added a citizen science aspect, of using Folding@Home to help contribute the leftover computing resources from the powerful virtual machines to helping finding potential solutions for the coronavirus pandemic. Many of us second-year biomedical engineering students felt quite helpless about how we could contribute when the pandemic first hit, and I thought that the citizen science aspect was a pretty solid way to help.</p>
+
+<p>You can read the article here: <a href="https://sophiandavis.medium.com/faster-solidworks-renders-and-citizen-science-c43a37f120fc">Faster Solidworks Renders and Citizen Science Article</a></p>
+:ET
