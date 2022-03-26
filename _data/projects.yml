@@ -52,16 +52,10 @@
   description: Page Still Under Construction
   tags: ...
 
-- name: Sophia's Childhood Bedroom
-  image: img/bedroom/bookcase.png
+- name: Childhood Bedroom on Maui
+  image: img/bedroom/roomautomation/room_automation.png
   pagename: bedroom
-  description: Page Still Under Construction. Related to Room Automation Project.
-  tags: ...
-
-- name: Room Automation
-  image: img/roomautomation/room_automation.png
-  pagename: roomautomation
-  description: Page Still Under Construction. Related to Sophia's Childhood Bedroom project.
+  description: Page Still Under Construction. Worked on a lot of projects and improvements to my childhood bedroom on Maui, throughout the many years I lived there. The majority of room-improvement projects were during my high school years, between 2014 and 2018.
   tags: ...
 
 - name: Freshman Robot Project

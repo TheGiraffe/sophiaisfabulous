@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Sophia's Childhood Bedroom
-projectname: Sophia's Childhood Bedroom
+title: Childhood Bedroom Improvements
+projectname: Childhood Bedroom Improvements
 projectdate:
 projectdescription: <p></p>
 projecttags:
