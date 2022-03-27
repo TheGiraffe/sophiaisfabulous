@@ -27,7 +27,7 @@ bannerimagealttext:
 <p align = "center">
 <img src="img/crochet/crochet_purse_card.png" width="90%"/>
 <br>
-<i>All packed and ready to be mailed to Mom!</i>
+<i>All packed and ready to be mailed to Mom! - Coasters are packed in the purse.</i>
 </p>
 <br>
 <hr>
