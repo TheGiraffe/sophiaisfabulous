@@ -40,6 +40,12 @@
   description: Page Still Under Construction
   tags: ...
 
+- name: DIY Cat Ears
+  image: img/catears/cat_ears_3.png
+  pagename: catears
+  description: Page Still Under Construction
+  tags: ...
+
 - name: Design Darling
   image: img/designdarling/word_logo.png
   pagename: designdarling
@@ -67,5 +73,17 @@
 - name: Adventures in Microscopic Photography
   image: img/microscopicphotography/microscopic_photography_gallery_3.png
   pagename: microscopicphotography
+  description: Page Still Under Construction
+  tags: ...
+
+- name: Flowerwall Font
+  image: img/flowerwallfont/flowerwall_1.png
+  pagename: flowerwallfont
+  description: Work in progress project. Page Still Under Construction.
+  tags: ...
+
+- name: Miscellaneous High School Projects
+  image: img/highschool/voyagingcanoe.png
+  pagename: highschool
   description: Page Still Under Construction
   tags: ...
