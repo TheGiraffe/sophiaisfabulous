@@ -2,9 +2,19 @@
 layout: project
 title: Mauipedia
 projectname: Mauipedia
-projectdate:
-projectdescription: <p></p>
+projectdate: 2020 - Present <br> (Paused)
+projectdescription: <p>Ambitious open-source encyclopedia and archive of places and things on Maui, including things that no longer exist. For Maui locals, and for future generations, to paint a picture of what Maui is now and what it was before.</p>
 projecttags:
 bannerimagesrc:
 bannerimagealttext:
 ---
+## Overview
+Mauipedia is an ambitious open-source encyclopedia and archive of places and things on Maui, including things that no longer exist. Rather than being made for tourists, it is made for Maui locals, and for future generations, to paint a picture of what Maui is now and what it was before. It is a time capsule, a repository, of local businesses and organizations still here and long gone, of what things used to look like, and of things dear to the hearts of the people of this island and of all generations.
+
+This project was my response to the closure of many dearly loved local businesses as a result of the economic impact of the coronavirus pandemic.
+
+<p align="center">
+<img src="img/mauipedia/kihei.png" width="90%">
+<br>
+<i>Screenshot of in-progress Kihei page from Mauipedia. The "Last Updated" field used to work, it would take the date and time of the last commit that changed the page (using Github API), but I think it isn't working now because I may need a new API key or something.</i>
+</p>

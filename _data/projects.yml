@@ -31,7 +31,7 @@
 - name: Mauipedia
   image: img/mauipedia/Mauipedia.png
   pagename: mauipedia
-  description: Page Still Under Construction
+  description: Page Still Under Construction. Ambitious open-source encyclopedia and archive of places and things on Maui, including things that no longer exist. For Maui locals, and for future generations, to paint a picture of what Maui is now and what it was before.
   tags: ...
 
 - name: Pillbox
@@ -46,26 +46,26 @@
   description: Page Still Under Construction
   tags: ...
 
+- name: Freshman Robot Project
+  image: img/freshmanrobotproject/freshman_robot_project_2.png
+  pagename: freshmanrobotproject
+  description: Page Still Under Construction
+  tags: ...
+
+- name: Childhood Bedroom on Maui
+  image: img/bedroom/roomautomation/room_automation_2.png
+  pagename: bedroom
+  description: Page Still Under Construction. Worked on a lot of projects and improvements to my childhood bedroom on Maui, throughout the many years I lived there. The majority of room-improvement projects were during my high school years, between 2014 and 2018.
+  tags: ...
+
 - name: Test Driving Bionica
   image: img/bionica/bionica_gallery_2.png
   pagename: bionica
   description: Page Still Under Construction
   tags: ...
 
-- name: Childhood Bedroom on Maui
-  image: img/bedroom/roomautomation/room_automation.png
-  pagename: bedroom
-  description: Page Still Under Construction. Worked on a lot of projects and improvements to my childhood bedroom on Maui, throughout the many years I lived there. The majority of room-improvement projects were during my high school years, between 2014 and 2018.
-  tags: ...
-
-- name: Freshman Robot Project
-  image: img/freshmanrobotproject/freshman_robot_project.png
-  pagename: freshmanrobotproject
-  description: Page Still Under Construction
-  tags: ...
-
 - name: Adventures in Microscopic Photography
-  image: img/microscopicphotography/microscopic_photography_gallery.png
+  image: img/microscopicphotography/microscopic_photography_gallery_3.png
   pagename: microscopicphotography
   description: Page Still Under Construction
   tags: ...
