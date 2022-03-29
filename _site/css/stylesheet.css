@@ -5,8 +5,8 @@ body{
   background-color: #cfeee9ff;
 }
 
-a{
-  color:#ff73d4 !important;
+main a{
+  color:#ff73d4;
 }
 
 .nav-link{
