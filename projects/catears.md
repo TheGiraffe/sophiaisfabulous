@@ -3,8 +3,9 @@ layout: project
 title: DIY Cat Ears
 projectname: DIY Cat Ears
 projectdate: 2017, 2020
-projectdescription: <p></p>
+projectdescription: <p>Created an instructional video to teach people how to make their own light-up cat ear headband - the entire process from CAD to 3D printing to assembly, electronics, and decorating.</p>
 projecttags:
+projectlinks: <a href="https://youtu.be/vHotMhFMeg0" target="_blank">Youtube Video Link</a>
 bannerimagesrc:
 bannerimagealttext:
 ---
@@ -13,6 +14,7 @@ bannerimagealttext:
 </center>
 
 ## Overview
+This page is still a work in progress.
 
 ## Version 2.0
 <p align="center">
