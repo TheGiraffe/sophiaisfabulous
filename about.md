@@ -19,4 +19,4 @@ I designed and built this website using mainly Jekyll, Bootstrap, and jQuery. Th
 
 This website was designed with intention to be partly a portfolio website that describes my current and past projects, as well as various skills and hobbies I've worked on throughout the years. It is also a personal website, aiming to have space for writing and reflection on various interests, goal-setting and growth, and, in the future, hopefully some interactive storytelling elements. Overall, a place to put lots of things that interest me, and lots of projects that I'm proud of.
 
-**Mahalo nui loa for visiting!** :heartpulse:
+**Mahalo nui for visiting!** :heartpulse:
