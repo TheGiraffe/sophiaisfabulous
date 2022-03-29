@@ -1,0 +1,14 @@
+I"�<h2 id="about-me">About Me</h2>
+<p><img src="css/sophia.png" width="25%" align="left" style="margin-right:1rem" />
+Aloha, I am Sophia!</p>
+
+<p>I am a Biomedical Engineering student at the University of Glasgow in Scotland. I am originally from Maui, an island in the Hawaiian Islands (USA).</p>
+
+<p>I am an alumna of <a href="http://www.kiheicharter.org/">Kihei Charter School</a>, where I graduated in 2018. I am also proud to be an alumna of the Maui Economic Development Board Women in Technology’s <a href="https://www.stemworkshawaii.org/">STEMworks™ program</a> and the Nalukai Foundation’s <a href="https://nalukai.org/">Nalukai Academy Startup Camp</a> (2016 cohort).</p>
+
+<p><br /></p>
+<hr />
+
+<h2 id="about-this-website">About This Website</h2>
+<p>I made this website mainly using Jekyll, Bootstrap, and jQuery. The project gallery was made using jQuery and Masonry. The website is deployed via Github Pages.</p>
+:ET
