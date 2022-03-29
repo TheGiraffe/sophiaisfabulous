@@ -4,6 +4,11 @@ body{
   font-family: 'Quicksand', sans-serif;
   background-color: #cfeee9ff;
 }
+
+a{
+  color:#ff73d4 !important;
+}
+
 .nav-link{
   font-size:0.8rem;
   color: black;
