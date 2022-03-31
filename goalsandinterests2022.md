@@ -37,9 +37,7 @@ Playlist of songs that I listen to a lot:
 If you like electronic (and alternative? indie?) music, here is my trusty Soundcloud study music playlist that I've been using since high school:
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/274017678&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/s-davis-884321626" title="Queen Of The Giraffes" target="_blank" style="color: #cccccc; text-decoration: none;">Queen Of The Giraffes</a> · <a href="https://soundcloud.com/s-davis-884321626/sets/moo-sock" title="Study Moo Sock" target="_blank" style="color: #cccccc; text-decoration: none;">Study Moo Sock</a></div>
 
-Supposedly, the songs I listened to the most in 2021:
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EUMDoJuT8yJsl?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-According to Spotify, I listened to <a href="css/wrapped2021.png" target="_blank">a lot of minutes</a> of music throughout the year...
+According to Spotify, I listen to <a href="css/wrapped2021.png" target="_blank">a lot of minutes</a> of music throughout the year...
 
 ##### Books
   - The Code Breaker by Walter Isaacson was an amazing, inspiring book that made me think a lot about Biomedical Engineering, gene editing, synthetic biology, education, access, and inclusion, and many ethical concerns. It gave me a mild existential crisis, but in a good way - it really made me think about and question the "why" behind a lot of innovation in my chosen field. I would (and probably will!) absolutely read it again.
