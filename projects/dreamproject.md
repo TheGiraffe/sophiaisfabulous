@@ -14,3 +14,10 @@ finished: True
   - [ ] Course 4: Using Git for Distributed Development
 - [ ] Use [OSS Watch Tool](http://oss-watch.ac.uk/apps/licdiff/) to figure out which open source license to use for the project.
   - (*Leaning towards GNU General Public License v3.0*)
+- [ ] Complete the **Introduction to Accessibility and Inclusive Design** Course by The University of Illinois at Urbana-Champaign
+
+### Some Brainstorming Notes:
+*Poor quality as it was taken rather quickly with my phone camera. Will probably clean up, transcribe, and elaborate on later.*
+<p align = "center">
+<img src="img/dreamproject/brainstorm_notes.png" width="90%">
+</p>
