@@ -1,0 +1,87 @@
+I"><p>In this article, I am just going over some of the features of my personal jekyll website, and showing why Jekyll could be a good tool for generating static websites that contain lots of content such as blogs and galleries, without pulling your hair out. Jekyll websites are fast, secure, and simple, and below, I go over some features of Jekyll that I think are pretty powerful.</p>
+
+<h2 id="creating-a-dry-code-navbar--navigation">Creating a DRY Code Navbar / Navigation:</h2>
+<p><img src="http://localhost:4000/blog/images/jekyll_website_features/navbar.png" width="100%" /></p>
+
+<p>You can have a navbar included on every page, without having to type the same navbar code over and over again. This is advantageous as well for if those navbar links need to be changed or added to, or if you are as indecisive as me and am constantly changing the navbar content to be better organized.</p>
+
+<p>So the <code>navbar.html</code> file is inside the <code>_includes</code> folder, like this:</p>
+
+<p><img src="http://localhost:4000/blog/images/jekyll_website_features/includes.png" alt="Includes folder" /></p>
+
+<p>When we open <code>navbar.html</code>, it looks like this:</p>
+
+<p><img src="http://localhost:4000/blog/images/jekyll_website_features/navbar_liquid.png" width="100%" /></p>
+
+<p>You’ll notice that all the links lead to paths that look something like this:
+<img src="http://localhost:4000/blog/images/jekyll_website_features/siteurl.png" width="100%" /></p>
+
+<p>Where there is the <code>{&#123;  site.url 	&#125;}</code> liquid variable. What we are doing, is taking the site url and adding the proper path after it. This way, we don’t run into any problems with relative paths, we are just using the absolute path, and the navbar code will work on any page, even those in nested folders. Blog folders are especially nested when they are generated in the <code>_site</code> by Jekyll, they get nested first in a folder by year, then in one by month, then in one by date, hence why it is essential to use absolute versus relative paths.</p>
+
+<p>Once you put the navbar in the <code>_includes</code> folder, you can include the navbar on a page like this:</p>
+
+<p><img src="http://localhost:4000/blog/images/jekyll_website_features/includenavbar.png" alt="Include Navbar" /></p>
+
+<p>Easy peasy. :)</p>
+
+<p>All in all, Jekyll’s <code>_includes</code> folder and site url variable have solved a problem that I’ve had for a long time with the older versions of my personal website when I was younger, I kept having navbar links break on different pages, and I kept having to copy/paste the same navbar code onto each page.</p>
+
+<h2 id="projects-gallery">Projects Gallery</h2>
+<p>So the Projects page gallery looks like this:</p>
+
+<p><img src="http://localhost:4000/blog/images/jekyll_website_features/projects_page.png" width="100%" /></p>
+
+<p>And when you hover over a gallery item, it looks like this:</p>
+
+<p><img src="http://localhost:4000/blog/images/jekyll_website_features/projects_page_hover.png" alt="Project gallery item" /></p>
+
+<p>The most important piece of code on the Projects page is this:</p>
+
+<p><img src="http://localhost:4000/blog/images/jekyll_website_features/liquid_1.png" alt="Project page liquid" /></p>
+
+<p><br /></p>
+<div style="background-color:#cfeee9ff; padding:1em">
+<i>Note: The second most important piece of code is this, which changes the layout of all those tiles to a Masonry grid layout, using the Masonry Javascript library:</i>
+<br />
+<img src="http://localhost:4000/blog/images/jekyll_website_features/masonry.png" alt="Masonry library jquery" width="50%" />
+</div>
+<p><br /></p>
+
+<p>But anyways, back to dissecting this much more important piece of code:</p>
+
+<p><img src="http://localhost:4000/blog/images/jekyll_website_features/liquid_1.png" alt="Project page liquid" /></p>
+
+<p>We have a YAML file in our <code>_data</code> folder called <code>projects.yml</code>, and this Liquid for loop is looping through each item - called <code>project</code> - in that file, then including a file called <code>galleryitem.html</code> for each project.</p>
+
+<p>The galleryitem.html file is located in the <code>_includes</code> folder, along with things such as the navbar and footer. It is essentially a piece of html code that can be included on various pages by specifying <code>{&#37; include galleryitem.html &#37;}</code> on the page.</p>
+
+<p>The gallery item file looks like this:</p>
+
+<p><img src="http://localhost:4000/blog/images/jekyll_website_features/gallery_item.png" alt="galleryitem.html file" width="100%" /></p>
+
+<p>So, what happens is that this code gets inserted into the main <code>projects/index</code> page many times as the for loop loops itself. At each iteration of the for loop, <code>project</code> is set to a different entry in the <code>projects.yml</code> file, and so the gallery item loaded into the html uses that version/iteration of <code>project</code>. The project <code>pagename</code> is used with liquid to generate the div ids for the container and details, which allows the jQuery code below it to work - hence the fadeIn and fadeOut behaviour of the project pagename details upon hover.</p>
+
+<p>Some of this may make more sense by looking at the projects.yml file below:
+<img src="http://localhost:4000/blog/images/jekyll_website_features/projects_data.png" alt="Projects.yml file" width="100%" /></p>
+
+<p><strong>So, to reiterate:</strong></p>
+
+<p>What’s going on here is that, for every <code>project</code> in <code>projects.yml</code>, we generate a gallery item <code>div</code> that uses the project <code>name</code> for the heading (in the galleryitemname div), its <code>description</code> and <code>tags</code>, and most importantly, its <code>pagename</code> to make it link to the correct url, but also because the pagename is used to generate the unique div ids for the gallery item div, if that makes sense:</p>
+
+<p><img src="http://localhost:4000/blog/images/jekyll_website_features/container_details.png" alt="pagename container details" /></p>
+
+<p>So for a project with the pagename asthimo, the id of the container div will be <code>asthimocontainer</code> and the id of the details div would be <code>asthimodetails</code>.</p>
+
+<p>And, like, this is so neat because Jekyll goes and generates the static site for you! Without you having to repeat yourself and pull all the hair out of your head! So, for the asthimo iteration of gallery details, the actual page source of my projects gallery page looks like this:</p>
+
+<p><img src="http://localhost:4000/blog/images/jekyll_website_features/pagesource.png" alt="page source asthimo" /></p>
+
+<p>All of the asthimo details are filled in from projects.yml! 🤩</p>
+
+<h2 id="using-layouts">Using Layouts</h2>
+<p>Say that you have a lot of different pages that basically have to look the same, but hold different content.</p>
+
+<h2 id="making-blog-posts">Making Blog Posts</h2>
+
+<p>This is a little meta lol.</p>
+:ET
