@@ -15,7 +15,7 @@ finished: True
 - [ ] Use [OSS Watch Tool](http://oss-watch.ac.uk/apps/licdiff/) to figure out which open source license to use for the project.
   - (*Leaning towards GNU General Public License v3.0*)
 - [ ] Complete the **Introduction to Accessibility and Inclusive Design** Course by The University of Illinois at Urbana-Champaign
-- [ ] Work on **Project Management** one-month course, to learn how to better manage projects.
+- [x] Finish **Project Management** one-month course, to learn how to better manage projects.
 
 ### Some Brainstorming Notes:
 *Poor quality as it was taken rather quickly with my phone camera. Will probably clean up, transcribe, and elaborate on later.*
